@@ -1,6 +1,8 @@
 package com.myCode.entity;
 
 import java.io.Serializable;
+import java.math.BigInteger;
+
 import javax.persistence.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -13,7 +15,7 @@ public class Users implements Serializable{
 	private static final long serialVersionUID = 1L;
 
 	@Id
-	private String id;
+	private BigInteger id;
 
 	private String username;
 	private String password;
@@ -46,11 +48,11 @@ public class Users implements Serializable{
 		this.email = email;
 	}
 	
-	public String getId() {
+	public BigInteger getId() {
 		return id;
 	}
 
-	public void setId(String id) {
+	public void setId(BigInteger id) {
 		this.id = id;
 	}
 

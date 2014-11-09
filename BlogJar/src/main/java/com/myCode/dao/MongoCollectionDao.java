@@ -14,7 +14,7 @@ import com.mongodb.util.JSON;
 import com.myCode.model.ResultPage;
 
 public class MongoCollectionDao implements DynamicModelDao {
-
+	
 	private DB db;
 	private String collectionName;
 	private DBCollection dbCollection;

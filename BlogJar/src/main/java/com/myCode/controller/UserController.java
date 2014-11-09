@@ -1,6 +1,12 @@
 package com.myCode.controller;
 
+import java.security.Principal;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,7 +17,9 @@ import com.myCode.entity.Users;
 import com.myCode.service.UserService;
 
 @Controller
-public class UserController {
+public class UserController{
+	
+	HttpSession session;
 	
 	@Autowired
 	UserService userservice;
@@ -44,13 +52,22 @@ public class UserController {
 	}
 	
 	@RequestMapping(value = "/login.do", method=RequestMethod.GET)
-	public ModelAndView doLogin(@ModelAttribute("user") Users user)
+	public ModelAndView doLogin(@ModelAttribute("user") Users user,HttpServletRequest request,Principal principal)
 	{
 		ModelAndView model = new ModelAndView("TestPage");
 		
+		session = request.getSession();
+		if (session == null)
+			System.out.println("Session in null");
+		
+		session.setAttribute("currusername", principal.getName());
+		//session.setAttribute("curruserrole", user.getRole());
+		//System.out.println("Username :" +user.getUsername());
+		
 		//userservice.newUser(user);
 		//model.getModelMap().addAttribute("userList", users);
-		model.getModelMap().addAttribute("msg1", "User created with first name :"+user.getFirstName()+"and last name:"+user.getLastName());
+		//model.getModelMap().addAttribute("msg1", "User created with first name :"+user.getFirstName()+"and last name:"+user.getLastName());
+		model.getModelMap().addAttribute("msg1", "User created with first name :"+(String)session.getAttribute("currusername"));
 		model.addObject("msg2","Login successful");
 		
 		return model;
@@ -66,10 +83,10 @@ public class UserController {
 	}
 	
 	@RequestMapping(value="/newuser.do", method=RequestMethod.POST)
-	public ModelAndView newUserRegistration(@ModelAttribute("user") Users user)
+	public ModelAndView newUserRegistration(@ModelAttribute("user") Users user,HttpServletRequest request,Principal principal)
 	{
 		userservice.createNewUser(user);
-		ModelAndView model = doLogin(user);
+		ModelAndView model = doLogin(user,request,principal);
 		return model;
 	}
 }

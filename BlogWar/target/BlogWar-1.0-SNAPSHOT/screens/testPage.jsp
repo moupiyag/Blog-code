@@ -29,6 +29,8 @@
 
 	<c:out value="${msg1}" />
 	<c:out value="${msg2}" />
+	
+	<h3><a href="<c:url value="/newblog" />">Add New Blog</a></h3>
 
 </body>
 </html>

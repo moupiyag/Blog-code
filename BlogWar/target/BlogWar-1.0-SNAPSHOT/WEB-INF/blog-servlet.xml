@@ -96,5 +96,6 @@
  	
 	<!-- 	To initialize Dao classes -->
 	<bean id="userDao" class = "com.myCode.dao.UserDao"></bean>
+	<bean id="blogDao" class = "com.myCode.dao.BlogDao"></bean>
 	
 </beans>

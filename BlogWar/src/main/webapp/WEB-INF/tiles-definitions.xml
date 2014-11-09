@@ -26,4 +26,12 @@
 		<put-attribute name="body" value="/screens/SignIn.jsp"></put-attribute>
 	</definition>
 	
+	<definition name="newBlogPage" extends="Template">
+		<put-attribute name="body" value="/screens/NewBlog.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="BlogList" extends="Template">
+		<put-attribute name="body" value="/screens/BlogList.jsp"></put-attribute>
+	</definition>
+	
 </tiles-definitions>
