@@ -5,8 +5,9 @@ import java.security.Principal;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpRequest;
+//import org.springframework.http.HttpRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,7 +20,9 @@ import com.myCode.service.UserService;
 @Controller
 public class UserController{
 	
-	HttpSession session;
+	private static final Logger logger = Logger.getLogger(UserController.class);
+	
+	HttpSession session = null;
 	
 	@Autowired
 	UserService userservice;
@@ -27,6 +30,7 @@ public class UserController{
 	@RequestMapping(value = "/test", method= RequestMethod.GET)
 	public ModelAndView showTestPage()
 	{
+		logger.info("In showTestPage function");
 		ModelAndView model = new ModelAndView("TestPage");
 		
 		//userservice.newUser();
@@ -40,6 +44,7 @@ public class UserController{
 	@RequestMapping(value = "/login", method= RequestMethod.GET)
 	public ModelAndView showLoginPage()
 	{
+		logger.info("In showLoginPage function");
 		ModelAndView model = new ModelAndView("loginPage");
 		model.getModelMap().addAttribute("user" ,new Users());
 		//model.addObject("user" ,new Users());
@@ -54,6 +59,7 @@ public class UserController{
 	@RequestMapping(value = "/login.do", method=RequestMethod.GET)
 	public ModelAndView doLogin(@ModelAttribute("user") Users user,HttpServletRequest request,Principal principal)
 	{
+		logger.info("In doLogin function");
 		ModelAndView model = new ModelAndView("TestPage");
 		
 		session = request.getSession();

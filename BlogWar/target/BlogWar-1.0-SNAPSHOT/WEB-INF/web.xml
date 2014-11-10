@@ -26,6 +26,9 @@
 		<param-value>/WEB-INF/blog-servlet.xml
 		/WEB-INF/security-app-context.xml
 		</param-value>
+		
+<!-- 		<param-name>log4j.Configuration</param-name> -->
+<!-- 		<param-value>/WEB-INF/log4j.properties</param-value> -->
 	</context-param>
 	
 	<listener>

@@ -1,0 +1,4 @@
+2014-11-11 03:16:36 INFO  UserController:47 - In showLoginPage function
+2014-11-11 03:16:42 INFO  UserController:62 - In doLogin function
+2014-11-11 03:25:05 INFO  UserController:47 - In showLoginPage function
+2014-11-11 03:25:13 INFO  UserController:62 - In doLogin function
