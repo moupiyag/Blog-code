@@ -1,5 +1,9 @@
 package com.myCode.dao;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.FindAndModifyOptions;
 import org.springframework.data.mongodb.core.MongoOperations;
@@ -7,8 +11,10 @@ import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.data.mongodb.core.query.Update;
+import org.springframework.security.core.userdetails.User;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.mongodb.DBCollection;
 import com.myCode.entity.Blog;
 import com.myCode.entity.Counter;
 
@@ -16,6 +22,8 @@ public class BlogDao{
 	
 	private MongoTemplate mongoTemplate;
 	private MongoOperations mongoOps;
+	
+	private static final Logger logger = Logger.getLogger(BlogDao.class);
 
 	public MongoTemplate getMongoTemplate() {
 		return mongoTemplate;
@@ -30,8 +38,11 @@ public class BlogDao{
 	@Transactional(rollbackFor= Exception.class)
 	public void addNewBlog(Blog blog)
 	{
+		logger.info("addNewBlog : Inserting new blog for User : "+blog.getUserName());
 		blog.setId(getNextSequenceId("blogSequence"));
+		logger.info("addNewBlog : Sequence of new blog : "+blog.getId());
 		mongoOps.insert(blog);
+		logger.info("addNewBlog : New blog inserted");
 	}
 	
 	private long getNextSequenceId(String collectionName)
@@ -49,6 +60,30 @@ public class BlogDao{
 //		  }
 		
 		return seqId.getSequence();
+	}
+	
+	@Transactional(rollbackFor= Exception.class)
+	public List<Blog> getBlogListByUser(String username)
+	{
+		logger.info("getBlogListByUser : Getting Blog List for user : "+username);
+		Query query = new Query();
+		query.addCriteria(Criteria.where("user").is(username));
+		logger.info("getBlogListByUser : Query created : "+query);
+		
+		List<Blog> blogList = mongoOps.find(query,Blog.class);
+		logger.info("getBlogListByUser : Fetched "+blogList.size()+ " blogs for user : "+username);
+		
+		return blogList;
+	}
+	
+	@Transactional(rollbackFor= Exception.class)
+	public List<String> getUserList()
+	{
+		DBCollection user = mongoOps.getCollection("blogs");
+		List<String> blogUserList = user.distinct("user");
+		logger.info("getUserList : Fetched "+blogUserList.size()+" users : "+blogUserList.toString());
+		
+		return blogUserList;
 	}
 
 }

@@ -11,5 +11,15 @@
 </head>
 <body>
 	<c:out value="${msg1}" />
+	<c:forEach var="blog" items="${blogList}" varStatus="counter">
+		<br>
+		<c:out value="${counter.count}" />. 
+		<c:out value="Title : ${blog.blogTitle}" />
+		<br>
+		<c:out value="Date : ${blog.blogDate}" />
+		<br>
+		<c:out value="${blog.blogBody}" />
+		<br>
+	</c:forEach>
 </body>
 </html>

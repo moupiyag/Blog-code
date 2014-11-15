@@ -34,4 +34,8 @@
 		<put-attribute name="body" value="/screens/BlogList.jsp"></put-attribute>
 	</definition>
 	
+	<definition name="UserList" extends="Template">
+		<put-attribute name="body" value="/screens/UserList.jsp"></put-attribute>
+	</definition>
+	
 </tiles-definitions>

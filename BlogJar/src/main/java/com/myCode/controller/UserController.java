@@ -16,6 +16,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.myCode.entity.Users;
 import com.myCode.service.UserService;
+import com.myCode.constant.ViewManagerConstant;
 
 @Controller
 public class UserController{
@@ -31,10 +32,8 @@ public class UserController{
 	public ModelAndView showTestPage()
 	{
 		logger.info("In showTestPage function");
-		ModelAndView model = new ModelAndView("TestPage");
+		ModelAndView model = new ModelAndView(ViewManagerConstant.TESTPAGE);
 		
-		//userservice.newUser();
-		//model.getModelMap().addAttribute("userList", users);
 		model.getModelMap().addAttribute("msg1", "Hello Test");
 		model.addObject("msg2","HelloWorld");
 		
@@ -45,13 +44,8 @@ public class UserController{
 	public ModelAndView showLoginPage()
 	{
 		logger.info("In showLoginPage function");
-		ModelAndView model = new ModelAndView("loginPage");
+		ModelAndView model = new ModelAndView(ViewManagerConstant.LOGIN);
 		model.getModelMap().addAttribute("user" ,new Users());
-		//model.addObject("user" ,new Users());
-		//userservice.newUser();
-		//model.getModelMap().addAttribute("userList", users);
-		//model.getModelMap().addAttribute("msg1", "Hello Test");
-		//model.addObject("msg2","HelloWorld");
 		
 		return model;
 	}
@@ -60,21 +54,24 @@ public class UserController{
 	public ModelAndView doLogin(@ModelAttribute("user") Users user,HttpServletRequest request,Principal principal)
 	{
 		logger.info("In doLogin function");
-		ModelAndView model = new ModelAndView("TestPage");
-		
-		session = request.getSession();
-		if (session == null)
-			System.out.println("Session in null");
-		
-		session.setAttribute("currusername", principal.getName());
-		//session.setAttribute("curruserrole", user.getRole());
-		//System.out.println("Username :" +user.getUsername());
-		
-		//userservice.newUser(user);
-		//model.getModelMap().addAttribute("userList", users);
-		//model.getModelMap().addAttribute("msg1", "User created with first name :"+user.getFirstName()+"and last name:"+user.getLastName());
-		model.getModelMap().addAttribute("msg1", "User created with first name :"+(String)session.getAttribute("currusername"));
-		model.addObject("msg2","Login successful");
+		ModelAndView model = new ModelAndView(ViewManagerConstant.TESTPAGE);
+		try{
+			logger.info("1");
+			session = request.getSession();
+			logger.info("2");
+			if (session == null)
+				System.out.println("Session in null");
+			logger.info("3");
+			logger.info("Current user : "+principal.getName());
+			session.setAttribute("currusername", principal.getName());
+			model.getModelMap().addAttribute("msg1", "User created with first name :"+(String)session.getAttribute("currusername"));
+			model.addObject("msg2","Login successful");
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+			logger.error(e.getCause());
+		}
 		
 		return model;
 	}
@@ -82,7 +79,7 @@ public class UserController{
 	@RequestMapping(value = "/registration.do", method=RequestMethod.GET)
 	public ModelAndView showRegistrationPage()
 	{
-		ModelAndView model = new ModelAndView("signIn");
+		ModelAndView model = new ModelAndView(ViewManagerConstant.SIGNIN);
 		model.getModelMap().addAttribute("user" ,new Users());
 		
 		return model;
@@ -92,6 +89,7 @@ public class UserController{
 	public ModelAndView newUserRegistration(@ModelAttribute("user") Users user,HttpServletRequest request,Principal principal)
 	{
 		userservice.createNewUser(user);
+		logger.info("newUserRegistration : User name : "+user.getUsername()+"  Password : "+user.getPassword());
 		ModelAndView model = doLogin(user,request,principal);
 		return model;
 	}

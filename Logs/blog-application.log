@@ -2,3 +2,169 @@
 2014-11-11 03:16:42 INFO  UserController:62 - In doLogin function
 2014-11-11 03:25:05 INFO  UserController:47 - In showLoginPage function
 2014-11-11 03:25:13 INFO  UserController:62 - In doLogin function
+2014-11-15 02:14:18 INFO  UserController:46 - In showLoginPage function
+2014-11-15 02:14:35 INFO  UserController:56 - In doLogin function
+2014-11-15 02:15:07 INFO  BlogDao:38 - addNewBlog : Inserting new blog for User : kodomful
+2014-11-15 02:15:07 INFO  BlogDao:40 - addNewBlog : Sequence of new blog : 4
+2014-11-15 02:15:07 INFO  BlogDao:42 - addNewBlog : New blog inserted
+2014-11-15 02:15:07 INFO  BlogDao:65 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-15 02:15:07 INFO  BlogDao:68 - getBlogListByUser : Query created : Query: { "username" : "kodomful"}, Fields: null, Sort: null
+2014-11-15 02:15:07 INFO  BlogDao:71 - getBlogListByUser : Fetched 0blogs for user : kodomful
+2014-11-15 02:19:33 INFO  UserController:46 - In showLoginPage function
+2014-11-15 02:19:40 INFO  UserController:56 - In doLogin function
+2014-11-15 02:20:01 INFO  BlogDao:38 - addNewBlog : Inserting new blog for User : kodomful
+2014-11-15 02:20:01 INFO  BlogDao:40 - addNewBlog : Sequence of new blog : 5
+2014-11-15 02:20:01 INFO  BlogDao:42 - addNewBlog : New blog inserted
+2014-11-15 02:20:01 INFO  BlogDao:65 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-15 02:20:01 INFO  BlogDao:68 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-15 02:20:01 INFO  BlogDao:71 - getBlogListByUser : Fetched 3 blogs for user : kodomful
+2014-11-15 02:23:56 INFO  UserController:46 - In showLoginPage function
+2014-11-15 02:24:00 INFO  UserController:56 - In doLogin function
+2014-11-15 02:24:24 INFO  BlogDao:38 - addNewBlog : Inserting new blog for User : kodomful
+2014-11-15 02:24:24 INFO  BlogDao:40 - addNewBlog : Sequence of new blog : 6
+2014-11-15 02:24:24 INFO  BlogDao:42 - addNewBlog : New blog inserted
+2014-11-15 02:24:24 INFO  BlogDao:65 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-15 02:24:24 INFO  BlogDao:68 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-15 02:24:24 INFO  BlogDao:71 - getBlogListByUser : Fetched 4 blogs for user : kodomful
+2014-11-15 02:27:20 INFO  UserController:46 - In showLoginPage function
+2014-11-15 02:27:26 INFO  UserController:56 - In doLogin function
+2014-11-15 02:32:57 INFO  UserController:46 - In showLoginPage function
+2014-11-15 02:33:03 INFO  UserController:56 - In doLogin function
+2014-11-15 02:33:09 INFO  UserController:46 - In showLoginPage function
+2014-11-15 02:36:08 INFO  UserController:46 - In showLoginPage function
+2014-11-15 02:36:16 INFO  UserController:56 - In doLogin function
+2014-11-15 02:38:39 INFO  UserController:46 - In showLoginPage function
+2014-11-15 02:38:49 INFO  UserController:46 - In showLoginPage function
+2014-11-15 02:38:58 INFO  UserController:56 - In doLogin function
+2014-11-15 02:39:04 INFO  UserController:46 - In showLoginPage function
+2014-11-15 03:52:26 INFO  UserController:46 - In showLoginPage function
+2014-11-15 03:52:37 INFO  UserController:56 - In doLogin function
+2014-11-15 03:53:54 INFO  BlogDao:65 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-15 03:53:54 INFO  BlogDao:68 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-15 03:53:54 INFO  BlogDao:71 - getBlogListByUser : Fetched 4 blogs for user : kodomful
+2014-11-15 03:54:10 INFO  BlogDao:65 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-15 03:54:10 INFO  BlogDao:68 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-15 03:54:10 INFO  BlogDao:71 - getBlogListByUser : Fetched 4 blogs for user : kodomful
+2014-11-15 03:54:12 INFO  UserController:46 - In showLoginPage function
+2014-11-15 03:54:17 INFO  UserController:56 - In doLogin function
+2014-11-15 03:54:19 INFO  BlogDao:65 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-15 03:54:19 INFO  BlogDao:68 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-15 03:54:19 INFO  BlogDao:71 - getBlogListByUser : Fetched 4 blogs for user : kodomful
+2014-11-15 08:12:01 INFO  UserController:46 - In showLoginPage function
+2014-11-15 08:12:11 INFO  UserController:46 - In showLoginPage function
+2014-11-15 08:12:19 INFO  UserController:56 - In doLogin function
+2014-11-15 08:12:23 INFO  BlogDao:65 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-15 08:12:23 INFO  BlogDao:68 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-15 08:12:23 INFO  BlogDao:71 - getBlogListByUser : Fetched 4 blogs for user : kodomful
+2014-11-15 08:12:51 INFO  BlogDao:38 - addNewBlog : Inserting new blog for User : kodomful
+2014-11-15 08:12:52 INFO  BlogDao:40 - addNewBlog : Sequence of new blog : 7
+2014-11-15 08:12:52 INFO  BlogDao:42 - addNewBlog : New blog inserted
+2014-11-15 08:12:52 INFO  BlogDao:65 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-15 08:12:52 INFO  BlogDao:68 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-15 08:12:52 INFO  BlogDao:71 - getBlogListByUser : Fetched 5 blogs for user : kodomful
+2014-11-15 08:13:00 INFO  BlogDao:65 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-15 08:13:00 INFO  BlogDao:68 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-15 08:13:00 INFO  BlogDao:71 - getBlogListByUser : Fetched 5 blogs for user : kodomful
+2014-11-15 08:13:15 INFO  UserController:46 - In showLoginPage function
+2014-11-15 08:13:48 INFO  UserController:56 - In doLogin function
+2014-11-15 08:14:02 INFO  UserController:46 - In showLoginPage function
+2014-11-15 08:14:36 INFO  UserController:46 - In showLoginPage function
+2014-11-15 08:14:41 INFO  UserController:46 - In showLoginPage function
+2014-11-15 08:15:28 INFO  UserController:56 - In doLogin function
+2014-11-15 08:15:34 INFO  BlogDao:65 - getBlogListByUser : Getting Blog List for user : paneerm
+2014-11-15 08:15:34 INFO  BlogDao:68 - getBlogListByUser : Query created : Query: { "user" : "paneerm"}, Fields: null, Sort: null
+2014-11-15 08:15:34 INFO  BlogDao:71 - getBlogListByUser : Fetched 0 blogs for user : paneerm
+2014-11-15 08:15:46 INFO  BlogDao:38 - addNewBlog : Inserting new blog for User : paneerm
+2014-11-15 08:15:46 INFO  BlogDao:40 - addNewBlog : Sequence of new blog : 8
+2014-11-15 08:15:46 INFO  BlogDao:42 - addNewBlog : New blog inserted
+2014-11-15 08:15:46 INFO  BlogDao:65 - getBlogListByUser : Getting Blog List for user : paneerm
+2014-11-15 08:15:46 INFO  BlogDao:68 - getBlogListByUser : Query created : Query: { "user" : "paneerm"}, Fields: null, Sort: null
+2014-11-15 08:15:46 INFO  BlogDao:71 - getBlogListByUser : Fetched 1 blogs for user : paneerm
+2014-11-15 08:15:51 INFO  BlogDao:65 - getBlogListByUser : Getting Blog List for user : paneerm
+2014-11-15 08:15:51 INFO  BlogDao:68 - getBlogListByUser : Query created : Query: { "user" : "paneerm"}, Fields: null, Sort: null
+2014-11-15 08:15:51 INFO  BlogDao:71 - getBlogListByUser : Fetched 1 blogs for user : paneerm
+2014-11-15 08:15:52 INFO  BlogDao:65 - getBlogListByUser : Getting Blog List for user : paneerm
+2014-11-15 08:15:52 INFO  BlogDao:68 - getBlogListByUser : Query created : Query: { "user" : "paneerm"}, Fields: null, Sort: null
+2014-11-15 08:15:52 INFO  BlogDao:71 - getBlogListByUser : Fetched 1 blogs for user : paneerm
+2014-11-15 08:16:02 INFO  BlogDao:65 - getBlogListByUser : Getting Blog List for user : paneerm
+2014-11-15 08:16:02 INFO  BlogDao:68 - getBlogListByUser : Query created : Query: { "user" : "paneerm"}, Fields: null, Sort: null
+2014-11-15 08:16:02 INFO  BlogDao:71 - getBlogListByUser : Fetched 1 blogs for user : paneerm
+2014-11-15 08:16:14 INFO  UserController:46 - In showLoginPage function
+2014-11-15 15:34:03 INFO  UserController:46 - In showLoginPage function
+2014-11-15 15:34:08 INFO  UserController:46 - In showLoginPage function
+2014-11-15 15:34:11 INFO  UserController:46 - In showLoginPage function
+2014-11-15 15:34:16 INFO  UserController:46 - In showLoginPage function
+2014-11-15 15:34:21 INFO  UserController:46 - In showLoginPage function
+2014-11-15 15:34:47 INFO  UserController:46 - In showLoginPage function
+2014-11-15 15:37:18 INFO  UserController:56 - In doLogin function
+2014-11-15 15:37:43 INFO  BlogDao:38 - addNewBlog : Inserting new blog for User : rinig
+2014-11-15 15:37:43 INFO  BlogDao:40 - addNewBlog : Sequence of new blog : 9
+2014-11-15 15:37:43 INFO  BlogDao:42 - addNewBlog : New blog inserted
+2014-11-15 15:37:43 INFO  BlogDao:65 - getBlogListByUser : Getting Blog List for user : rinig
+2014-11-15 15:37:43 INFO  BlogDao:68 - getBlogListByUser : Query created : Query: { "user" : "rinig"}, Fields: null, Sort: null
+2014-11-15 15:37:43 INFO  BlogDao:71 - getBlogListByUser : Fetched 1 blogs for user : rinig
+2014-11-15 15:37:50 INFO  BlogDao:65 - getBlogListByUser : Getting Blog List for user : rinig
+2014-11-15 15:37:50 INFO  BlogDao:68 - getBlogListByUser : Query created : Query: { "user" : "rinig"}, Fields: null, Sort: null
+2014-11-15 15:37:50 INFO  BlogDao:71 - getBlogListByUser : Fetched 1 blogs for user : rinig
+2014-11-15 15:37:58 INFO  UserController:46 - In showLoginPage function
+2014-11-15 15:38:47 INFO  UserController:56 - In doLogin function
+2014-11-15 19:28:57 INFO  UserController:46 - In showLoginPage function
+2014-11-15 19:29:08 INFO  UserController:56 - In doLogin function
+2014-11-15 19:29:08 INFO  UserController:63 - Current user : kodomful
+2014-11-15 19:29:33 INFO  BlogDao:68 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-15 19:29:33 INFO  BlogDao:71 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-15 19:29:33 INFO  BlogDao:74 - getBlogListByUser : Fetched 5 blogs for user : kodomful
+2014-11-15 19:30:35 INFO  BlogDao:41 - addNewBlog : Inserting new blog for User : kodomful
+2014-11-15 19:30:35 INFO  BlogDao:43 - addNewBlog : Sequence of new blog : 10
+2014-11-15 19:30:35 INFO  BlogDao:45 - addNewBlog : New blog inserted
+2014-11-15 19:30:35 INFO  BlogDao:68 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-15 19:30:35 INFO  BlogDao:71 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-15 19:30:35 INFO  BlogDao:74 - getBlogListByUser : Fetched 6 blogs for user : kodomful
+2014-11-15 19:31:17 INFO  UserController:46 - In showLoginPage function
+2014-11-15 19:32:05 INFO  UserController:56 - In doLogin function
+2014-11-15 19:32:05 ERROR UserController:70 - [Ljava.lang.StackTraceElement;@5880f4fb
+2014-11-15 19:35:38 INFO  UserController:46 - In showLoginPage function
+2014-11-15 19:55:22 INFO  UserController:46 - In showLoginPage function
+2014-11-15 19:55:26 INFO  UserController:46 - In showLoginPage function
+2014-11-15 19:55:32 INFO  UserController:56 - In doLogin function
+2014-11-15 19:55:32 INFO  UserController:63 - Current user : kodomful
+2014-11-15 19:55:35 INFO  BlogDao:84 - getUserList : Fetched 0 users : [ ]
+2014-11-15 19:55:35 INFO  BlogService:42 - getAllUsers : Got 0 users : [ ]
+2014-11-15 19:55:42 INFO  BlogDao:68 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-15 19:55:42 INFO  BlogDao:71 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-15 19:55:42 INFO  BlogDao:74 - getBlogListByUser : Fetched 6 blogs for user : kodomful
+2014-11-15 19:55:45 INFO  BlogDao:84 - getUserList : Fetched 0 users : [ ]
+2014-11-15 19:55:45 INFO  BlogService:42 - getAllUsers : Got 0 users : [ ]
+2014-11-15 19:55:46 INFO  BlogDao:68 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-15 19:55:46 INFO  BlogDao:71 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-15 19:55:46 INFO  BlogDao:74 - getBlogListByUser : Fetched 6 blogs for user : kodomful
+2014-11-15 19:55:48 INFO  UserController:46 - In showLoginPage function
+2014-11-15 19:56:10 INFO  UserController:89 - newUserRegistration : User name : test2  Password : $2a$10$0r8gj/ZAuv8/pHw6AHKmseEgyLmxaOlz9CxFyIU1TKKhLrQ19/Gju
+2014-11-15 19:56:10 INFO  UserController:56 - In doLogin function
+2014-11-15 19:56:10 ERROR UserController:70 - java.lang.NullPointerException
+2014-11-15 19:56:23 INFO  UserController:46 - In showLoginPage function
+2014-11-15 21:35:52 INFO  UserController:46 - In showLoginPage function
+2014-11-15 21:36:01 INFO  UserController:56 - In doLogin function
+2014-11-15 21:36:01 INFO  UserController:59 - 1
+2014-11-15 21:36:01 INFO  UserController:61 - 2
+2014-11-15 21:36:01 INFO  UserController:64 - 3
+2014-11-15 21:36:01 INFO  UserController:65 - Current user : kodomful
+2014-11-15 21:36:05 INFO  BlogDao:84 - getUserList : Fetched 3 users : [ "kodomful" , "paneerm" , "rinig"]
+2014-11-15 21:36:05 INFO  BlogService:42 - getAllUsers : Got 3 users : [ "kodomful" , "paneerm" , "rinig"]
+2014-11-15 21:36:25 INFO  BlogDao:84 - getUserList : Fetched 3 users : [ "kodomful" , "paneerm" , "rinig"]
+2014-11-15 21:36:25 INFO  BlogService:42 - getAllUsers : Got 3 users : [ "kodomful" , "paneerm" , "rinig"]
+2014-11-15 21:36:28 INFO  BlogDao:84 - getUserList : Fetched 3 users : [ "kodomful" , "paneerm" , "rinig"]
+2014-11-15 21:36:28 INFO  BlogService:42 - getAllUsers : Got 3 users : [ "kodomful" , "paneerm" , "rinig"]
+2014-11-15 21:36:29 INFO  BlogDao:84 - getUserList : Fetched 3 users : [ "kodomful" , "paneerm" , "rinig"]
+2014-11-15 21:36:29 INFO  BlogService:42 - getAllUsers : Got 3 users : [ "kodomful" , "paneerm" , "rinig"]
+2014-11-15 21:36:30 INFO  BlogDao:68 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-15 21:36:30 INFO  BlogDao:71 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-15 21:36:30 INFO  BlogDao:74 - getBlogListByUser : Fetched 6 blogs for user : kodomful
+2014-11-15 21:36:37 INFO  UserController:46 - In showLoginPage function
+2014-11-15 21:37:08 INFO  UserController:92 - newUserRegistration : User name : test3  Password : $2a$10$CQBNjphCs2IITR9WGb0N6OWYZpg4VomG0codun3IMlPsYAyvUsOnC
+2014-11-15 21:37:08 INFO  UserController:56 - In doLogin function
+2014-11-15 21:37:08 INFO  UserController:59 - 1
+2014-11-15 21:37:08 INFO  UserController:61 - 2
+2014-11-15 21:37:08 INFO  UserController:64 - 3
+2014-11-15 21:37:08 ERROR UserController:73 - 
+2014-11-15 21:37:29 INFO  UserController:46 - In showLoginPage function
