@@ -1,4 +1,4 @@
-Blog-code
+Your Blog
 =========
 
 Contributor: Moupiya Ghosh
