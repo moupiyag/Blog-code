@@ -15,6 +15,7 @@
 	<ul>
 		<li><a href="<c:url value ="/myblogs" /> "> My Blogs </a></li>
 		<li><a href="<c:url value ="/blogs" /> "> Blogs </a></li>
+		<li><a href="<c:url value="/newblog" />">Add New Blog</a></li>
 	</ul>
 </sec:authorize>
 </body>

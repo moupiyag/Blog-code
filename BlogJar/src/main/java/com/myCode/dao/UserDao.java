@@ -34,7 +34,7 @@ public class UserDao {
 	public Users getUserDetails(String username)
 	{
 		Users user = mongoOps.findOne(new Query(Criteria.where("username").is(username)),Users.class );
-		System.out.println(user);
+		System.out.println("UserDao : getUserDetails : "+user);
 		return user;
 	}
 

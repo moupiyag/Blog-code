@@ -18,19 +18,8 @@
 		Role : <sec:authentication property="principal.authorities" />
 	</sec:authorize>
 	
-	<a href="<c:url value="/j_spring_security_logout"/>">Logout</a>
-	
 	<h2>${msg1}</h2>
 	<h2>${msg2}</h2>
-	<%-- 	<c:forEach items=${userList} var="element"> --%>
-	<%-- 		<div>First name : <c:out value="${element.firstName }" /></div> --%>
-	<%-- 		<div>Last name : <c:out value="${element.lastName }" /></div> --%>
-	<%-- 	</c:forEach> --%>
-
-	<c:out value="${msg1}" />
-	<c:out value="${msg2}" />
-	
-	<h3><a href="<c:url value="/newblog" />">Add New Blog</a></h3>
 
 </body>
 </html>
