@@ -8,15 +8,22 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<%-- <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/main.css"> --%>
+<link rel="stylesheet" type="text/css" href="<c:url value="resources/css/main.css"/>">
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Your Blog</h1>
+<div id="header">
+	<h1>Your <span> Blog </span></h1>
+	<div id="logout">
 	<sec:authorize access="isAuthenticated()">
 		User : <sec:authentication property="principal.username" />
+		|
 		<a align="right" href="<c:url value="/j_spring_security_logout"/>">Logout</a>
 	</sec:authorize>
-
+	</div>
 	
+</div>
+	<style></style>
 </body>
 </html>

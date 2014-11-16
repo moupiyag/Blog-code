@@ -10,21 +10,29 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<c:out value="${msg1}" />
-	
-	<c:if test="${not empty param.forUser}">
-		<h2>Blogs of ${user}</h2>
-	</c:if>
 
-	<c:forEach var="blog" items="${blogList}" varStatus="counter">
-		<br>
-		<c:out value="${counter.count}" />. 
-		<c:out value="Title : ${blog.blogTitle}" />
-		<br>
-		<c:out value="Date : ${blog.blogDate}" />
-		<br>
-		<c:out value="${blog.blogBody}" />
-		<br>
-	</c:forEach>
+	<div id="container">
+		<div id="body">
+			<c:out value="${msg1}" />
+
+			<c:if test="${not empty param.forUser}">
+				<h2>Blogs of ${user}</h2>
+			</c:if>
+
+			<c:forEach var="blog" items="${blogList}" varStatus="counter">
+				<div id="blogtitle">
+<%-- 				<c:out value="${counter.count}" />.  --%>
+				<c:out value="${blog.blogTitle}" />
+				</div>
+			<div id="blogdate">
+			<c:out value="Updated at ${blog.blogDate}" />
+			</div>
+			<div id="blogbodysample"><c:out value="${blog.blogBody}" /></div>
+				<br>
+			</c:forEach>
+
+
+
+		</div>
 </body>
 </html>

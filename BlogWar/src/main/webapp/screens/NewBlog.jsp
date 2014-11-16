@@ -11,27 +11,40 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<div>
-		<form:form method="POST" action="newblog.do" commandName="blog">
-			<table>
-				<tr>
-					<td><form:label path="blogTitle">Title: </form:label></td>
-					<td><form:input path="blogTitle" /></td>
-				</tr>
-				<tr>
-					<td><form:label path="blogBody">Blog :</form:label></td>
-					<td><form:input path="blogBody" /></td>
-				</tr>
-				<!-- 				<tr> -->
-				<%-- 					<td><form:label path="tagList">Tags :</form:label></td> --%>
-				<%-- 					<td><form:input path="tagList" /></td> --%>
-				<!-- 				</tr> -->
-				<tr>
-					<td></td>
-					<td><input type="submit" value="Add" /></td>
-				</tr>
-			</table>
-		</form:form>
+	<div id="container">
+		<div id="body">
+			<div id="newblog">
+<!-- 				<script type="text/javascript" -->
+<!-- 					src="http://js.nicedit.com/nicEdit-latest.js"></script> -->
+<!-- 				<script type="text/javascript"> -->
+// 					//<![CDATA[
+// 					bkLib.onDomLoaded(function() {
+// 						new nicEditor({buttonList : ['fontSize','bold','italic','underline','strikeThrough','subscript','superscript','html','image']}).panelInstance('area1');
+// 					});
+// 					//]]>
+<!-- 				</script> -->
+				<form:form method="POST" action="newblog.do" commandName="blog">
+					<table>
+						<tr>
+							<td><form:label path="blogTitle">Title: </form:label></td>
+							<td><form:input path="blogTitle" size="100" /></td>
+						</tr>
+						<tr>
+							<td><form:label path="blogBody">Blog :</form:label></td>
+							<td><form:textarea path="blogBody" rows="10" cols="100" /></td>
+						</tr>
+						<!-- 				<tr> -->
+						<%-- 					<td><form:label path="tagList">Tags :</form:label></td> --%>
+						<%-- 					<td><form:input path="tagList" /></td> --%>
+						<!-- 				</tr> -->
+						<tr>
+							<td></td>
+							<td><input type="submit" value="Add" /></td>
+						</tr>
+					</table>
+				</form:form>
+			</div>
+		</div>
 	</div>
 </body>
 </html>

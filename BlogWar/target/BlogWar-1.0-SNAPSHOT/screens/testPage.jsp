@@ -13,13 +13,26 @@
 <title>Test page</title>
 </head>
 <body>
-	<sec:authorize access="isAuthenticated()">
-		Username : <sec:authentication property="principal.username" />
-		Role : <sec:authentication property="principal.authorities" />
-	</sec:authorize>
-	
-	<h2>${msg1}</h2>
-	<h2>${msg2}</h2>
 
+<!-- 	Username : -->
+<%-- 	<sec:authentication property="principal.username" /> --%>
+<!-- 	Role : -->
+<%-- 	<sec:authentication property="principal.authorities" /> --%>
+
+
+	<%-- 	<h2>${msg1}</h2> --%>
+	<%-- 	<h2>${msg2}</h2> --%>
+
+	<div id="container">
+		<div id="body">
+			<sec:authorize access="isAuthenticated()">
+				<h2>
+					Welcome
+					<sec:authentication property="principal.username" />
+					!
+				</h2>
+			Please go to the menu.
+			</sec:authorize>
+		</div>
 </body>
 </html>
