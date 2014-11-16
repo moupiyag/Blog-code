@@ -14,7 +14,7 @@
 	<c:forEach var="element" items="${blogUserList}">
 		<br>
 		<br>
-		<c:out value="Blogs of ${element}" />
+		<a href="<c:url value="/showblogs?forUser=${element}" />" > <c:out value="Blogs of ${element}" /></a>
 	</c:forEach>
 </body>
 </html>

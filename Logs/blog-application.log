@@ -373,3 +373,72 @@
 2014-11-16 17:13:18 INFO  BlogDao:84 - getUserList : Fetched 5 users : [ "kodomful" , "paneerm" , "rinig" , "test10" , "test12"]
 2014-11-16 17:13:18 INFO  BlogService:42 - getAllUsers : Got 5 users : [ "kodomful" , "paneerm" , "rinig" , "test10" , "test12"]
 2014-11-16 17:13:33 INFO  UserController:47 - In showLoginPage function
+2014-11-16 17:57:55 INFO  UserController:47 - In showLoginPage function
+2014-11-16 17:57:59 INFO  UserController:57 - In doLogin function
+2014-11-16 17:57:59 INFO  UserController:62 - Principal is : org.springframework.security.authentication.UsernamePasswordAuthenticationToken@4ff8596f: Principal: org.springframework.security.core.userdetails.User@be55b5f: Username: kodomful; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@0: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: 9B6201ABED54F15F568109A9F07CE35C; Granted Authorities: ROLE_USER
+2014-11-16 17:57:59 INFO  UserController:63 - doLogin : Current user : kodomful
+2014-11-16 17:58:02 INFO  BlogDao:68 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-16 17:58:02 INFO  BlogDao:71 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-16 17:58:02 INFO  BlogDao:74 - getBlogListByUser : Fetched 6 blogs for user : kodomful
+2014-11-16 17:58:07 INFO  BlogDao:84 - getUserList : Fetched 5 users : [ "kodomful" , "paneerm" , "rinig" , "test10" , "test12"]
+2014-11-16 17:58:07 INFO  BlogService:42 - getAllUsers : Got 5 users : [ "kodomful" , "paneerm" , "rinig" , "test10" , "test12"]
+2014-11-16 18:05:55 INFO  UserController:47 - In showLoginPage function
+2014-11-16 18:06:00 INFO  UserController:57 - In doLogin function
+2014-11-16 18:06:00 INFO  UserController:62 - Principal is : org.springframework.security.authentication.UsernamePasswordAuthenticationToken@4ff8ea0b: Principal: org.springframework.security.core.userdetails.User@be55b5f: Username: kodomful; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: 9F3E3FFB2C80353FC5318CBD19BDF8FD; Granted Authorities: ROLE_USER
+2014-11-16 18:06:00 INFO  UserController:63 - doLogin : Current user : kodomful
+2014-11-16 18:06:03 INFO  BlogDao:68 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-16 18:06:03 INFO  BlogDao:71 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-16 18:06:03 INFO  BlogDao:74 - getBlogListByUser : Fetched 6 blogs for user : kodomful
+2014-11-16 18:06:05 INFO  BlogDao:84 - getUserList : Fetched 5 users : [ "kodomful" , "paneerm" , "rinig" , "test10" , "test12"]
+2014-11-16 18:06:05 INFO  BlogService:42 - getAllUsers : Got 5 users : [ "kodomful" , "paneerm" , "rinig" , "test10" , "test12"]
+2014-11-16 18:06:07 INFO  BlogDao:68 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-16 18:06:07 INFO  BlogDao:71 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-16 18:06:07 INFO  BlogDao:74 - getBlogListByUser : Fetched 6 blogs for user : kodomful
+2014-11-16 18:06:12 INFO  BlogDao:84 - getUserList : Fetched 5 users : [ "kodomful" , "paneerm" , "rinig" , "test10" , "test12"]
+2014-11-16 18:06:12 INFO  BlogService:42 - getAllUsers : Got 5 users : [ "kodomful" , "paneerm" , "rinig" , "test10" , "test12"]
+2014-11-16 18:06:14 INFO  BlogDao:68 - getBlogListByUser : Getting Blog List for user : test12
+2014-11-16 18:06:14 INFO  BlogDao:71 - getBlogListByUser : Query created : Query: { "user" : "test12"}, Fields: null, Sort: null
+2014-11-16 18:06:14 INFO  BlogDao:74 - getBlogListByUser : Fetched 1 blogs for user : test12
+2014-11-16 18:08:56 INFO  UserController:47 - In showLoginPage function
+2014-11-16 18:09:00 INFO  UserController:57 - In doLogin function
+2014-11-16 18:09:00 INFO  UserController:62 - Principal is : org.springframework.security.authentication.UsernamePasswordAuthenticationToken@4ff93fa7: Principal: org.springframework.security.core.userdetails.User@be55b5f: Username: kodomful; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@166c8: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: 054EDF611FDDFDB63139885821D9CDD5; Granted Authorities: ROLE_USER
+2014-11-16 18:09:00 INFO  UserController:63 - doLogin : Current user : kodomful
+2014-11-16 18:09:03 INFO  BlogDao:84 - getUserList : Fetched 5 users : [ "kodomful" , "paneerm" , "rinig" , "test10" , "test12"]
+2014-11-16 18:09:03 INFO  BlogService:42 - getAllUsers : Got 5 users : [ "kodomful" , "paneerm" , "rinig" , "test10" , "test12"]
+2014-11-16 18:09:04 INFO  BlogDao:68 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-16 18:09:04 INFO  BlogDao:71 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-16 18:09:04 INFO  BlogDao:74 - getBlogListByUser : Fetched 6 blogs for user : kodomful
+2014-11-16 18:09:11 INFO  BlogDao:68 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-16 18:09:11 INFO  BlogDao:71 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-16 18:09:11 INFO  BlogDao:74 - getBlogListByUser : Fetched 6 blogs for user : kodomful
+2014-11-16 18:09:12 INFO  BlogDao:84 - getUserList : Fetched 5 users : [ "kodomful" , "paneerm" , "rinig" , "test10" , "test12"]
+2014-11-16 18:09:12 INFO  BlogService:42 - getAllUsers : Got 5 users : [ "kodomful" , "paneerm" , "rinig" , "test10" , "test12"]
+2014-11-16 18:09:17 INFO  BlogDao:68 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-16 18:09:17 INFO  BlogDao:71 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-16 18:09:17 INFO  BlogDao:74 - getBlogListByUser : Fetched 6 blogs for user : kodomful
+2014-11-16 18:10:40 INFO  BlogDao:68 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-16 18:10:40 INFO  BlogDao:71 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-16 18:10:40 INFO  BlogDao:74 - getBlogListByUser : Fetched 6 blogs for user : kodomful
+2014-11-16 18:10:41 INFO  BlogDao:84 - getUserList : Fetched 5 users : [ "kodomful" , "paneerm" , "rinig" , "test10" , "test12"]
+2014-11-16 18:10:41 INFO  BlogService:42 - getAllUsers : Got 5 users : [ "kodomful" , "paneerm" , "rinig" , "test10" , "test12"]
+2014-11-16 18:10:42 INFO  BlogDao:68 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-16 18:10:42 INFO  BlogDao:71 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-16 18:10:42 INFO  BlogDao:74 - getBlogListByUser : Fetched 6 blogs for user : kodomful
+2014-11-16 18:10:49 INFO  BlogDao:68 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-16 18:10:49 INFO  BlogDao:71 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-16 18:10:49 INFO  BlogDao:74 - getBlogListByUser : Fetched 6 blogs for user : kodomful
+2014-11-16 18:15:20 INFO  UserController:47 - In showLoginPage function
+2014-11-16 18:15:24 INFO  UserController:57 - In doLogin function
+2014-11-16 18:15:24 INFO  UserController:62 - Principal is : org.springframework.security.authentication.UsernamePasswordAuthenticationToken@4ff8ea0b: Principal: org.springframework.security.core.userdetails.User@be55b5f: Username: kodomful; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: 2422B70649FC2B86A5D684EB78D57300; Granted Authorities: ROLE_USER
+2014-11-16 18:15:24 INFO  UserController:63 - doLogin : Current user : kodomful
+2014-11-16 18:15:26 INFO  BlogDao:68 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-16 18:15:26 INFO  BlogDao:71 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-16 18:15:26 INFO  BlogDao:74 - getBlogListByUser : Fetched 6 blogs for user : kodomful
+2014-11-16 18:15:30 INFO  BlogDao:84 - getUserList : Fetched 5 users : [ "kodomful" , "paneerm" , "rinig" , "test10" , "test12"]
+2014-11-16 18:15:30 INFO  BlogService:42 - getAllUsers : Got 5 users : [ "kodomful" , "paneerm" , "rinig" , "test10" , "test12"]
+2014-11-16 18:15:31 INFO  BlogDao:68 - getBlogListByUser : Getting Blog List for user : paneerm
+2014-11-16 18:15:31 INFO  BlogDao:71 - getBlogListByUser : Query created : Query: { "user" : "paneerm"}, Fields: null, Sort: null
+2014-11-16 18:15:31 INFO  BlogDao:74 - getBlogListByUser : Fetched 1 blogs for user : paneerm
+2014-11-16 18:15:34 INFO  BlogDao:68 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-16 18:15:34 INFO  BlogDao:71 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-16 18:15:34 INFO  BlogDao:74 - getBlogListByUser : Fetched 6 blogs for user : kodomful

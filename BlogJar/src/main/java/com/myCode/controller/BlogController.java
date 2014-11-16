@@ -9,8 +9,10 @@ import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.myCode.constant.ViewManagerConstant;
@@ -53,8 +55,6 @@ public class BlogController {
 		HttpSession session = request.getSession(false);
 		String currUser = (String)session.getAttribute("currusername");
 		
-		//model.getModelMap().addAttribute("msg1", "New Blog added successfully");
-		
 		List<Blog> blogList = blogService.getBlogListByUserName(currUser);
 		model.getModelMap().addAttribute("blogList", blogList);
 		
@@ -65,13 +65,21 @@ public class BlogController {
 	public ModelAndView showAllUsers(HttpServletRequest request){
 		
 		ModelAndView model = new ModelAndView(ViewManagerConstant.USERLIST);
-//		HttpSession session = request.getSession(false);
-	//	String currUser = (String)session.getAttribute("currusername");
-		
-		//model.getModelMap().addAttribute("msg1", "New Blog added successfully");
 		
 		List<String> blogUserList = blogService.getAllUsers();
 		model.getModelMap().addAttribute("blogUserList", blogUserList);
+		
+		return model;
+	}
+	
+	@RequestMapping(value = "/showblogs", method=RequestMethod.GET)
+	public ModelAndView showBlogsForUser(@RequestParam("forUser") String userName){
+		
+		ModelAndView model = new ModelAndView(ViewManagerConstant.BLOGLIST);
+		
+		List<Blog> blogList = blogService.getBlogListByUserName(userName);
+		model.getModelMap().addAttribute("blogList", blogList);
+		model.getModelMap().addAttribute("user", userName);
 		
 		return model;
 	}
