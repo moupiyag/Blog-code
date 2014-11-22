@@ -8,6 +8,8 @@ public class ViewManagerConstant {
 	public static final String NEWBLOG = "newBlogPage";
 	public static final String BLOGLIST = "BlogList";
 	public static final String USERLIST = "UserList";
+	public static final String BLOGCOMMENTS = "BlogComments";
+	
 	
 	
 	

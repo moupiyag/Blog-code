@@ -8,10 +8,10 @@ import org.springframework.data.mongodb.core.mapping.Field;
 public class Comment {
 
 	@Id
-	private String id;
+	private long id;
 	
 	@Field("blogid")
-	private String blogId;
+	private long blogId;
 	
 	@Field("user")
 	private String userName;
@@ -21,5 +21,45 @@ public class Comment {
 	
 	@Field("comment")
 	private String commentBody;
+
+	public long getId() {
+		return id;
+	}
+
+	public void setId(long id) {
+		this.id = id;
+	}
+
+	public long getBlogId() {
+		return blogId;
+	}
+
+	public void setBlogId(long blogId) {
+		this.blogId = blogId;
+	}
+
+	public String getUserName() {
+		return userName;
+	}
+
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+
+	public String getCommentDate() {
+		return commentDate;
+	}
+
+	public void setCommentDate(String commentDate) {
+		this.commentDate = commentDate;
+	}
+
+	public String getCommentBody() {
+		return commentBody;
+	}
+
+	public void setCommentBody(String commentBody) {
+		this.commentBody = commentBody;
+	}
 	
 }

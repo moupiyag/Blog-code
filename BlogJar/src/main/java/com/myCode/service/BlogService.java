@@ -1,5 +1,6 @@
 package com.myCode.service;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -9,6 +10,8 @@ import org.springframework.stereotype.Service;
 
 import com.myCode.dao.BlogDao;
 import com.myCode.entity.Blog;
+import com.myCode.entity.Comment;
+import com.myCode.model.BlogWithCommentsModel;
 
 @Service
 public class BlogService {
@@ -36,12 +39,33 @@ public class BlogService {
 		return blogList;
 	}
 	
+	
 	public List<String> getAllUsers()
 	{
 		List<String> userList =  blogDao.getUserList();
 		logger.info("getAllUsers : Got "+userList.size()+" users : "+userList.toString());
 		
 		return userList;
+	}
+	
+	public BlogWithCommentsModel getBlogWithComments(long blogId)
+	{
+		Blog currBlog = blogDao.getBlogById(blogId);
+		BlogWithCommentsModel currBlogComm = new BlogWithCommentsModel(currBlog);
+		
+		ArrayList<Comment> commentList = (ArrayList<Comment>)blogDao.getCommentsByBlogId(blogId);
+		currBlogComm.setCommentList(commentList);
+		
+		return currBlogComm;
+	}
+	
+	public void addNewComment(Comment newComment,String currUser)
+	{
+		newComment.setUserName(currUser);
+		newComment.setCommentDate(new Date().toString());
+		
+		blogDao.addNewComment(newComment);
+		logger.info("addNewComment : Added new comment for Blog Id : "+newComment.getBlogId());
 	}
 
 }

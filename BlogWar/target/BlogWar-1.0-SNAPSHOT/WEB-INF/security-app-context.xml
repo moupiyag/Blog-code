@@ -13,6 +13,7 @@
 		<intercept-url pattern="/registration.do" access="permitAll" />
 		<intercept-url pattern="/newuser.do" access="permitAll" />
 		<intercept-url pattern="/resources/css/main.css" access="permitAll" />
+		<intercept-url pattern="/resources/img/logo_header.jpg" access="permitAll" />
 		<intercept-url pattern="/**" access="hasRole('ROLE_USER')" />
 		<!-- <http-basic/> -->
 		<form-login login-page="/login" default-target-url="/login.do"

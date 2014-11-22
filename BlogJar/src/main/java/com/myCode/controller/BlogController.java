@@ -16,14 +16,20 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.myCode.constant.ViewManagerConstant;
+import com.myCode.dao.BlogDao;
 import com.myCode.entity.Blog;
+import com.myCode.entity.Comment;
+import com.myCode.model.BlogWithCommentsModel;
 import com.myCode.service.BlogService;
+import org.apache.log4j.Logger;
 
 @Controller
 public class BlogController {
 
 	@Autowired
 	private BlogService blogService;
+	
+	private static final Logger logger = Logger.getLogger(BlogDao.class);
 	
 	@RequestMapping(value = "/newblog", method=RequestMethod.GET)
 	public ModelAndView showNewBlogPage(){
@@ -83,4 +89,42 @@ public class BlogController {
 		
 		return model;
 	}
+	
+	@RequestMapping(value = "/showblog.do", method=RequestMethod.GET)
+	public ModelAndView showBlogWithComments(@RequestParam("blog") long blogId){
+		
+		ModelAndView model = new ModelAndView(ViewManagerConstant.BLOGCOMMENTS);
+		
+		BlogWithCommentsModel blogObject = blogService.getBlogWithComments(blogId);
+		logger.info("BlogWithCommentsModel blogObject fetched : "+blogObject.toString());
+		model.getModelMap().addAttribute("blogObject", blogObject);
+		Comment comment = new Comment();
+		comment.setBlogId(blogId);
+		model.getModelMap().addAttribute("comment", comment);
+		
+		return model;
+	}
+	
+	@RequestMapping(value = "/newcomment.do", method=RequestMethod.POST)
+	public ModelAndView addNewComment(@ModelAttribute("comment") Comment newComment,HttpServletRequest request){
+		
+		ModelAndView model = new ModelAndView(ViewManagerConstant.BLOGCOMMENTS);
+		
+		HttpSession session = request.getSession(false);
+		String currUser = (String)session.getAttribute("currusername");
+		long blogId = newComment.getBlogId();
+		
+		blogService.addNewComment(newComment,currUser);
+		
+		BlogWithCommentsModel blogObject = blogService.getBlogWithComments(blogId);
+		model.getModelMap().addAttribute("blogObject", blogObject);
+		Comment comment = new Comment();
+		comment.setBlogId(blogId);
+		model.getModelMap().addAttribute("comment", comment);
+		
+		return model;
+	}
+	
+	
+	
 }

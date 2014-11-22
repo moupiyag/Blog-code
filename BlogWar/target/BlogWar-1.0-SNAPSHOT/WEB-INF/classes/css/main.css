@@ -20,8 +20,8 @@ body {
 	line-height: 1.5em;
 	color: #333;
 	text-align: center;
-	margin: 0;
-	padding: 0;
+	margin: 0 auto;
+	padding: 20px 100px 20px 100px;
 	}
 
 /* headers */
@@ -166,7 +166,9 @@ ul.images li img { vertical-align: middle; }
 /*------------------------------------------------------------*
 **  Header
 **------------------------------------------------------------*/
-#header { background: url(../img/header_.png) no-repeat; }
+#header { background: url(../img/header_.png) no-repeat;
+		  color: #fff;
+		}
 
 /* Logo */
 #header h1 { 
@@ -181,6 +183,11 @@ ul.images li img { vertical-align: middle; }
 #header h1 a { text-decoration: none; color: #099; }
 #header h1 a:hover { text-decoration: none; }
 #header h1 span { color: #fff; }
+
+#headerleft {
+	background: url(../img/logo_header.jpg);
+	float: left;
+}
 
 /* if you would like to replace the logo with 
 an image, comment out the above logo code and
@@ -210,12 +217,12 @@ uncomment the following */
 **  Navigation
 **------------------------------------------------------------*/
 ul#nav {
-	margin: 0 0 20px;
-	padding: 0;
-	list-style-type: none;
-	border-top: 1px solid #535457;
-	border-bottom: 1px solid #050A10;
-	height: 1%;
+	margin: 0 auto;
+	padding: 0 0 0 400px;
+ 	list-style-type: none; 
+/* 	border-top: 1px solid #535457; */
+/* 	border-bottom: 1px solid #050A10; */
+/* 	height: 1%; */
 	}
 ul#nav:after {	
 	content: ".";
@@ -296,6 +303,13 @@ ul#nav li.on a:hover { background-image: url(../img/nav_on_.png); }
 	color: darkseagreen;
 }
 
+#container #body #comment {
+	background-color: #B5D5CE;
+	border-style: solid;
+	border-width: 2px;
+	font-family: Trebuchet MS, Tahoma, "Georgia", Arial, Helvetica, sans-serif;
+}
+
 
 #home #content #sub { 
 	padding: 0 20px 0 0; 
@@ -327,7 +341,9 @@ ul#nav li.on a:hover { background-image: url(../img/nav_on_.png); }
 #content #sub h2 { font-size: 1.6em; padding-bottom: 10px; margin-bottom: 10px; }	
 
 
-
+#menu {
+	margin: 0 auto;
+}
 /*------------------------------------------------------------*
 **  Footer
 **------------------------------------------------------------*/

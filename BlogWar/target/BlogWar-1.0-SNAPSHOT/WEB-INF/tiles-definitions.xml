@@ -38,4 +38,9 @@
 		<put-attribute name="body" value="/screens/UserList.jsp"></put-attribute>
 	</definition>
 	
+	<definition name="BlogComments" extends="Template">
+		<put-attribute name="body" value="/screens/ShowBlogWithComments.jsp"></put-attribute>
+	</definition>
+	
+	
 </tiles-definitions>

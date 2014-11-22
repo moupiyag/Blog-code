@@ -26,6 +26,19 @@ public class Blog {
 	
 	@Field("tags")
 	private ArrayList<String> tagList;
+	
+	public Blog(){
+		
+	}
+	
+	public Blog(Blog blog)
+	{
+		this.id = blog.getId();
+		this.blogTitle = blog.getBlogTitle();
+		this.blogBody = blog.getBlogBody();
+		this.userName = blog.getUserName();
+		this.blogDate = blog.getBlogDate();
+	}
 
 	public long getId() {
 		return id;

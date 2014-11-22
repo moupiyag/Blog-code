@@ -763,3 +763,421 @@
 2014-11-17 01:32:11 INFO  BlogDao:74 - getBlogListByUser : Fetched 6 blogs for user : kodomful
 2014-11-17 01:32:29 INFO  BlogDao:84 - getUserList : Fetched 5 users : [ "kodomful" , "paneerm" , "rinig" , "test10" , "test12"]
 2014-11-17 01:32:29 INFO  BlogService:42 - getAllUsers : Got 5 users : [ "kodomful" , "paneerm" , "rinig" , "test10" , "test12"]
+2014-11-17 22:53:47 INFO  UserController:47 - In showLoginPage function
+2014-11-17 22:53:47 INFO  UserController:47 - In showLoginPage function
+2014-11-17 22:53:47 INFO  UserController:47 - In showLoginPage function
+2014-11-17 22:53:47 INFO  UserController:47 - In showLoginPage function
+2014-11-17 22:53:47 INFO  UserController:47 - In showLoginPage function
+2014-11-17 22:53:47 INFO  UserController:47 - In showLoginPage function
+2014-11-17 22:54:15 INFO  UserController:47 - In showLoginPage function
+2014-11-17 22:57:14 INFO  UserController:57 - In doLogin function
+2014-11-17 22:57:14 INFO  UserController:62 - Principal is : org.springframework.security.authentication.UsernamePasswordAuthenticationToken@b00392c7: Principal: org.springframework.security.core.userdetails.User@be55b5f: Username: kodomful; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffbcba8: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: 6B9789861CDACDB868BE915C57B2B15D; Granted Authorities: ROLE_USER
+2014-11-17 22:57:14 INFO  UserController:63 - doLogin : Current user : kodomful
+2014-11-17 22:57:24 INFO  BlogDao:68 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-17 22:57:24 INFO  BlogDao:71 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-17 22:57:24 INFO  BlogDao:74 - getBlogListByUser : Fetched 6 blogs for user : kodomful
+2014-11-17 22:57:39 INFO  BlogDao:84 - getUserList : Fetched 5 users : [ "kodomful" , "paneerm" , "rinig" , "test10" , "test12"]
+2014-11-17 22:57:39 INFO  BlogService:42 - getAllUsers : Got 5 users : [ "kodomful" , "paneerm" , "rinig" , "test10" , "test12"]
+2014-11-17 22:57:45 INFO  BlogDao:68 - getBlogListByUser : Getting Blog List for user : test12
+2014-11-17 22:57:45 INFO  BlogDao:71 - getBlogListByUser : Query created : Query: { "user" : "test12"}, Fields: null, Sort: null
+2014-11-17 22:57:45 INFO  BlogDao:74 - getBlogListByUser : Fetched 1 blogs for user : test12
+2014-11-17 22:58:05 INFO  BlogDao:68 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-17 22:58:05 INFO  BlogDao:71 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-17 22:58:05 INFO  BlogDao:74 - getBlogListByUser : Fetched 6 blogs for user : kodomful
+2014-11-17 22:58:09 INFO  UserController:47 - In showLoginPage function
+2014-11-22 13:57:19 INFO  UserController:47 - In showLoginPage function
+2014-11-22 13:57:22 INFO  UserController:47 - In showLoginPage function
+2014-11-22 13:57:22 INFO  UserController:47 - In showLoginPage function
+2014-11-22 13:57:22 INFO  UserController:47 - In showLoginPage function
+2014-11-22 13:57:22 INFO  UserController:47 - In showLoginPage function
+2014-11-22 13:57:22 INFO  UserController:47 - In showLoginPage function
+2014-11-22 13:57:33 INFO  UserController:57 - In doLogin function
+2014-11-22 13:57:33 INFO  UserController:62 - Principal is : org.springframework.security.authentication.UsernamePasswordAuthenticationToken@b00392c7: Principal: org.springframework.security.core.userdetails.User@be55b5f: Username: kodomful; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffbcba8: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: A56A9AFA596054CF39D901C9CD42BCD4; Granted Authorities: ROLE_USER
+2014-11-22 13:57:33 INFO  UserController:63 - doLogin : Current user : kodomful
+2014-11-22 13:57:39 INFO  BlogDao:85 - getUserList : Fetched 5 users : [ "kodomful" , "paneerm" , "rinig" , "test10" , "test12"]
+2014-11-22 13:57:39 INFO  BlogService:46 - getAllUsers : Got 5 users : [ "kodomful" , "paneerm" , "rinig" , "test10" , "test12"]
+2014-11-22 13:57:44 INFO  BlogDao:69 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-22 13:57:44 INFO  BlogDao:72 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-22 13:57:44 INFO  BlogDao:75 - getBlogListByUser : Fetched 6 blogs for user : kodomful
+2014-11-22 13:57:53 INFO  BlogDao:103 - getCommentsByBlogId : Getting Comment List for blog : 3
+2014-11-22 13:57:53 INFO  BlogDao:106 - getCommentsByBlogId : Query created : Query: { "blogid" : 3}, Fields: null, Sort: null
+2014-11-22 13:57:53 INFO  BlogDao:109 - getCommentsByBlogId : Fetched 0 comments for blog : 3
+2014-11-22 13:58:35 INFO  BlogDao:103 - getCommentsByBlogId : Getting Comment List for blog : 4
+2014-11-22 13:58:35 INFO  BlogDao:106 - getCommentsByBlogId : Query created : Query: { "blogid" : 4}, Fields: null, Sort: null
+2014-11-22 13:58:35 INFO  BlogDao:109 - getCommentsByBlogId : Fetched 0 comments for blog : 4
+2014-11-22 13:59:44 INFO  BlogDao:85 - getUserList : Fetched 5 users : [ "kodomful" , "paneerm" , "rinig" , "test10" , "test12"]
+2014-11-22 13:59:44 INFO  BlogService:46 - getAllUsers : Got 5 users : [ "kodomful" , "paneerm" , "rinig" , "test10" , "test12"]
+2014-11-22 13:59:47 INFO  BlogDao:69 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-22 13:59:47 INFO  BlogDao:72 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-22 13:59:47 INFO  BlogDao:75 - getBlogListByUser : Fetched 6 blogs for user : kodomful
+2014-11-22 13:59:50 INFO  BlogDao:103 - getCommentsByBlogId : Getting Comment List for blog : 3
+2014-11-22 13:59:50 INFO  BlogDao:106 - getCommentsByBlogId : Query created : Query: { "blogid" : 3}, Fields: null, Sort: null
+2014-11-22 13:59:50 INFO  BlogDao:109 - getCommentsByBlogId : Fetched 0 comments for blog : 3
+2014-11-22 14:17:29 INFO  UserController:47 - In showLoginPage function
+2014-11-22 14:17:29 INFO  UserController:47 - In showLoginPage function
+2014-11-22 14:17:29 INFO  UserController:47 - In showLoginPage function
+2014-11-22 14:17:29 INFO  UserController:47 - In showLoginPage function
+2014-11-22 14:17:29 INFO  UserController:47 - In showLoginPage function
+2014-11-22 14:17:29 INFO  UserController:47 - In showLoginPage function
+2014-11-22 14:17:39 INFO  UserController:57 - In doLogin function
+2014-11-22 14:17:39 INFO  UserController:62 - Principal is : org.springframework.security.authentication.UsernamePasswordAuthenticationToken@4ffa94ff: Principal: org.springframework.security.core.userdetails.User@be55b5f: Username: kodomful; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@2cd90: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: 6083AA618F33393B76FC17712C7BCE3C; Granted Authorities: ROLE_USER
+2014-11-22 14:17:39 INFO  UserController:63 - doLogin : Current user : kodomful
+2014-11-22 14:17:42 INFO  BlogDao:69 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-22 14:17:42 INFO  BlogDao:72 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-22 14:17:42 INFO  BlogDao:75 - getBlogListByUser : Fetched 6 blogs for user : kodomful
+2014-11-22 14:17:46 INFO  BlogDao:85 - getUserList : Fetched 5 users : [ "kodomful" , "paneerm" , "rinig" , "test10" , "test12"]
+2014-11-22 14:17:46 INFO  BlogService:46 - getAllUsers : Got 5 users : [ "kodomful" , "paneerm" , "rinig" , "test10" , "test12"]
+2014-11-22 14:17:48 INFO  BlogDao:69 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-22 14:17:48 INFO  BlogDao:72 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-22 14:17:48 INFO  BlogDao:75 - getBlogListByUser : Fetched 6 blogs for user : kodomful
+2014-11-22 14:17:51 INFO  BlogDao:85 - getUserList : Fetched 5 users : [ "kodomful" , "paneerm" , "rinig" , "test10" , "test12"]
+2014-11-22 14:17:51 INFO  BlogService:46 - getAllUsers : Got 5 users : [ "kodomful" , "paneerm" , "rinig" , "test10" , "test12"]
+2014-11-22 14:17:53 INFO  BlogDao:69 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-22 14:17:53 INFO  BlogDao:72 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-22 14:17:53 INFO  BlogDao:75 - getBlogListByUser : Fetched 6 blogs for user : kodomful
+2014-11-22 14:18:18 INFO  BlogDao:103 - getCommentsByBlogId : Getting Comment List for blog : 3
+2014-11-22 14:18:18 INFO  BlogDao:106 - getCommentsByBlogId : Query created : Query: { "blogid" : 3}, Fields: null, Sort: null
+2014-11-22 14:18:18 INFO  BlogDao:109 - getCommentsByBlogId : Fetched 0 comments for blog : 3
+2014-11-22 14:18:18 INFO  BlogDao:99 - BlogWithCommentsModel blogObject fetched : Blog id : 3 title : abcd Body : efgh
+2014-11-22 14:20:52 INFO  BlogDao:69 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-22 14:20:52 INFO  BlogDao:72 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-22 14:20:52 INFO  BlogDao:75 - getBlogListByUser : Fetched 6 blogs for user : kodomful
+2014-11-22 14:22:27 INFO  BlogDao:103 - getCommentsByBlogId : Getting Comment List for blog : 3
+2014-11-22 14:22:27 INFO  BlogDao:106 - getCommentsByBlogId : Query created : Query: { "blogid" : 3}, Fields: null, Sort: null
+2014-11-22 14:22:27 INFO  BlogDao:109 - getCommentsByBlogId : Fetched 0 comments for blog : 3
+2014-11-22 14:22:27 INFO  BlogDao:99 - BlogWithCommentsModel blogObject fetched : Blog id : 3 title : abcd Body : efgh
+2014-11-22 14:24:26 INFO  UserController:47 - In showLoginPage function
+2014-11-22 14:24:26 INFO  UserController:47 - In showLoginPage function
+2014-11-22 14:24:26 INFO  UserController:47 - In showLoginPage function
+2014-11-22 14:24:26 INFO  UserController:47 - In showLoginPage function
+2014-11-22 14:24:26 INFO  UserController:47 - In showLoginPage function
+2014-11-22 14:24:26 INFO  UserController:47 - In showLoginPage function
+2014-11-22 14:24:33 INFO  UserController:47 - In showLoginPage function
+2014-11-22 14:24:39 INFO  UserController:57 - In doLogin function
+2014-11-22 14:24:39 INFO  UserController:62 - Principal is : org.springframework.security.authentication.UsernamePasswordAuthenticationToken@4ff93fa7: Principal: org.springframework.security.core.userdetails.User@be55b5f: Username: kodomful; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@166c8: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: 5C6A005F9765135091E9274C5ECE0428; Granted Authorities: ROLE_USER
+2014-11-22 14:24:39 INFO  UserController:63 - doLogin : Current user : kodomful
+2014-11-22 14:24:42 INFO  BlogDao:69 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-22 14:24:42 INFO  BlogDao:72 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-22 14:24:42 INFO  BlogDao:75 - getBlogListByUser : Fetched 6 blogs for user : kodomful
+2014-11-22 14:24:44 INFO  BlogDao:103 - getCommentsByBlogId : Getting Comment List for blog : 3
+2014-11-22 14:24:44 INFO  BlogDao:106 - getCommentsByBlogId : Query created : Query: { "blogid" : 3}, Fields: null, Sort: null
+2014-11-22 14:24:44 INFO  BlogDao:109 - getCommentsByBlogId : Fetched 0 comments for blog : 3
+2014-11-22 14:24:44 INFO  BlogDao:99 - BlogWithCommentsModel blogObject fetched : Blog id : 3 title : abcd Body : efgh
+2014-11-22 14:27:51 INFO  UserController:47 - In showLoginPage function
+2014-11-22 14:27:58 INFO  UserController:57 - In doLogin function
+2014-11-22 14:27:58 INFO  UserController:62 - Principal is : org.springframework.security.authentication.UsernamePasswordAuthenticationToken@b005bcbb: Principal: org.springframework.security.core.userdetails.User@be55b5f: Username: kodomful; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffde5d4: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: 16BA50E6F69CC7ADDCCE7D0AB58D62C7; Granted Authorities: ROLE_USER
+2014-11-22 14:27:58 INFO  UserController:63 - doLogin : Current user : kodomful
+2014-11-22 14:27:59 INFO  BlogDao:69 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-22 14:27:59 INFO  BlogDao:72 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-22 14:27:59 INFO  BlogDao:75 - getBlogListByUser : Fetched 6 blogs for user : kodomful
+2014-11-22 14:28:01 INFO  BlogDao:103 - getCommentsByBlogId : Getting Comment List for blog : 3
+2014-11-22 14:28:01 INFO  BlogDao:106 - getCommentsByBlogId : Query created : Query: { "blogid" : 3}, Fields: null, Sort: null
+2014-11-22 14:28:01 INFO  BlogDao:109 - getCommentsByBlogId : Fetched 0 comments for blog : 3
+2014-11-22 14:28:01 INFO  BlogDao:99 - BlogWithCommentsModel blogObject fetched : Blog id : 3 title : abcd Body : efgh
+2014-11-22 14:28:03 INFO  UserController:47 - In showLoginPage function
+2014-11-22 14:28:10 INFO  UserController:47 - In showLoginPage function
+2014-11-22 14:28:15 INFO  UserController:57 - In doLogin function
+2014-11-22 14:28:15 INFO  UserController:62 - Principal is : org.springframework.security.authentication.UsernamePasswordAuthenticationToken@4ffc6d37: Principal: org.springframework.security.core.userdetails.User@be55b5f: Username: kodomful; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@43458: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: 9B1B01D49AC48DB1ACD43596B9DA5052; Granted Authorities: ROLE_USER
+2014-11-22 14:28:15 INFO  UserController:63 - doLogin : Current user : kodomful
+2014-11-22 14:28:19 INFO  BlogDao:69 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-22 14:28:19 INFO  BlogDao:72 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-22 14:28:19 INFO  BlogDao:75 - getBlogListByUser : Fetched 6 blogs for user : kodomful
+2014-11-22 14:28:21 INFO  BlogDao:103 - getCommentsByBlogId : Getting Comment List for blog : 4
+2014-11-22 14:28:21 INFO  BlogDao:106 - getCommentsByBlogId : Query created : Query: { "blogid" : 4}, Fields: null, Sort: null
+2014-11-22 14:28:21 INFO  BlogDao:109 - getCommentsByBlogId : Fetched 0 comments for blog : 4
+2014-11-22 14:28:21 INFO  BlogDao:99 - BlogWithCommentsModel blogObject fetched : Blog id : 4 title : shhdgjk Body : test 4
+2014-11-22 14:28:40 INFO  BlogDao:69 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-22 14:28:40 INFO  BlogDao:72 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-22 14:28:40 INFO  BlogDao:75 - getBlogListByUser : Fetched 6 blogs for user : kodomful
+2014-11-22 14:29:12 INFO  UserController:47 - In showLoginPage function
+2014-11-22 14:29:20 INFO  UserController:57 - In doLogin function
+2014-11-22 14:29:20 INFO  UserController:62 - Principal is : org.springframework.security.authentication.UsernamePasswordAuthenticationToken@4ff8596f: Principal: org.springframework.security.core.userdetails.User@be55b5f: Username: kodomful; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@0: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: 4E569939CCBAC0779758C7D16355AA3B; Granted Authorities: ROLE_USER
+2014-11-22 14:29:20 INFO  UserController:63 - doLogin : Current user : kodomful
+2014-11-22 14:29:21 INFO  BlogDao:69 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-22 14:29:21 INFO  BlogDao:72 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-22 14:29:21 INFO  BlogDao:75 - getBlogListByUser : Fetched 6 blogs for user : kodomful
+2014-11-22 14:29:22 INFO  BlogDao:103 - getCommentsByBlogId : Getting Comment List for blog : 3
+2014-11-22 14:29:22 INFO  BlogDao:106 - getCommentsByBlogId : Query created : Query: { "blogid" : 3}, Fields: null, Sort: null
+2014-11-22 14:29:22 INFO  BlogDao:109 - getCommentsByBlogId : Fetched 0 comments for blog : 3
+2014-11-22 14:29:22 INFO  BlogDao:99 - BlogWithCommentsModel blogObject fetched : Blog id : 3 title : abcd Body : efgh
+2014-11-22 14:29:28 INFO  UserController:47 - In showLoginPage function
+2014-11-22 14:35:25 INFO  UserController:47 - In showLoginPage function
+2014-11-22 14:35:25 INFO  UserController:47 - In showLoginPage function
+2014-11-22 14:35:25 INFO  UserController:47 - In showLoginPage function
+2014-11-22 14:35:25 INFO  UserController:47 - In showLoginPage function
+2014-11-22 14:35:25 INFO  UserController:47 - In showLoginPage function
+2014-11-22 14:35:26 INFO  UserController:47 - In showLoginPage function
+2014-11-22 14:35:34 INFO  UserController:57 - In doLogin function
+2014-11-22 14:35:34 INFO  UserController:62 - Principal is : org.springframework.security.authentication.UsernamePasswordAuthenticationToken@4ffa94ff: Principal: org.springframework.security.core.userdetails.User@be55b5f: Username: kodomful; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@2cd90: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: 8A395AD8AB2D17047F1AFAC27CF57896; Granted Authorities: ROLE_USER
+2014-11-22 14:35:34 INFO  UserController:63 - doLogin : Current user : kodomful
+2014-11-22 14:35:37 INFO  BlogDao:69 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-22 14:35:37 INFO  BlogDao:72 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-22 14:35:37 INFO  BlogDao:75 - getBlogListByUser : Fetched 6 blogs for user : kodomful
+2014-11-22 14:35:39 INFO  BlogDao:103 - getCommentsByBlogId : Getting Comment List for blog : 3
+2014-11-22 14:35:39 INFO  BlogDao:106 - getCommentsByBlogId : Query created : Query: { "blogid" : 3}, Fields: null, Sort: null
+2014-11-22 14:35:39 INFO  BlogDao:109 - getCommentsByBlogId : Fetched 0 comments for blog : 3
+2014-11-22 14:35:39 INFO  BlogDao:99 - BlogWithCommentsModel blogObject fetched : Blog id : 3 title : abcd Body : efgh
+2014-11-22 14:40:43 INFO  UserController:47 - In showLoginPage function
+2014-11-22 14:40:44 INFO  UserController:47 - In showLoginPage function
+2014-11-22 14:40:44 INFO  UserController:47 - In showLoginPage function
+2014-11-22 14:40:44 INFO  UserController:47 - In showLoginPage function
+2014-11-22 14:40:44 INFO  UserController:47 - In showLoginPage function
+2014-11-22 14:40:44 INFO  UserController:47 - In showLoginPage function
+2014-11-22 14:40:52 INFO  UserController:57 - In doLogin function
+2014-11-22 14:40:52 INFO  UserController:62 - Principal is : org.springframework.security.authentication.UsernamePasswordAuthenticationToken@4ffa4343: Principal: org.springframework.security.core.userdetails.User@be55b5f: Username: kodomful; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@21a2c: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: 3E19B733EB4231ADEA689F11830645F6; Granted Authorities: ROLE_USER
+2014-11-22 14:40:52 INFO  UserController:63 - doLogin : Current user : kodomful
+2014-11-22 14:40:55 INFO  BlogDao:69 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-22 14:40:55 INFO  BlogDao:72 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-22 14:40:55 INFO  BlogDao:75 - getBlogListByUser : Fetched 6 blogs for user : kodomful
+2014-11-22 14:40:57 INFO  BlogDao:103 - getCommentsByBlogId : Getting Comment List for blog : 3
+2014-11-22 14:40:57 INFO  BlogDao:106 - getCommentsByBlogId : Query created : Query: { "blogid" : 3}, Fields: null, Sort: null
+2014-11-22 14:40:57 INFO  BlogDao:109 - getCommentsByBlogId : Fetched 0 comments for blog : 3
+2014-11-22 14:40:57 INFO  BlogDao:99 - BlogWithCommentsModel blogObject fetched : Blog id : 3 title : abcd Body : efgh
+2014-11-22 15:11:23 INFO  UserController:47 - In showLoginPage function
+2014-11-22 15:11:24 INFO  UserController:47 - In showLoginPage function
+2014-11-22 15:11:24 INFO  UserController:47 - In showLoginPage function
+2014-11-22 15:11:24 INFO  UserController:47 - In showLoginPage function
+2014-11-22 15:11:24 INFO  UserController:47 - In showLoginPage function
+2014-11-22 15:11:24 INFO  UserController:47 - In showLoginPage function
+2014-11-22 15:11:31 INFO  UserController:57 - In doLogin function
+2014-11-22 15:11:31 INFO  UserController:62 - Principal is : org.springframework.security.authentication.UsernamePasswordAuthenticationToken@b00715f3: Principal: org.springframework.security.core.userdetails.User@be55b5f: Username: kodomful; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@ffff4c9c: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: F3726ED93C1429F58C4A6A4E7F1FB1C9; Granted Authorities: ROLE_USER
+2014-11-22 15:11:31 INFO  UserController:63 - doLogin : Current user : kodomful
+2014-11-22 15:11:34 INFO  BlogDao:69 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-22 15:11:34 INFO  BlogDao:72 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-22 15:11:34 INFO  BlogDao:75 - getBlogListByUser : Fetched 6 blogs for user : kodomful
+2014-11-22 15:11:36 INFO  BlogDao:103 - getCommentsByBlogId : Getting Comment List for blog : 3
+2014-11-22 15:11:36 INFO  BlogDao:106 - getCommentsByBlogId : Query created : Query: { "blogid" : 3}, Fields: null, Sort: null
+2014-11-22 15:11:36 INFO  BlogDao:109 - getCommentsByBlogId : Fetched 0 comments for blog : 3
+2014-11-22 15:11:36 INFO  BlogDao:99 - BlogWithCommentsModel blogObject fetched : Blog id : 3 title : abcd Body : efgh
+2014-11-22 15:11:59 INFO  BlogDao:93 - addNewComment : Inserting new commeny for Blog Id : 0 of user : kodomful
+2014-11-22 15:11:59 INFO  BlogDao:95 - addNewComment : Sequence of new comment : 1
+2014-11-22 15:11:59 INFO  BlogDao:97 - addNewComment : New comment inserted
+2014-11-22 15:11:59 INFO  BlogService:68 - addNewComment : Added new comment for Blog Id : 0
+2014-11-22 15:23:33 INFO  UserController:47 - In showLoginPage function
+2014-11-22 15:23:36 INFO  UserController:47 - In showLoginPage function
+2014-11-22 15:23:42 INFO  UserController:57 - In doLogin function
+2014-11-22 15:23:42 INFO  UserController:62 - Principal is : org.springframework.security.authentication.UsernamePasswordAuthenticationToken@b005bcbb: Principal: org.springframework.security.core.userdetails.User@be55b5f: Username: kodomful; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffde5d4: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: 68672323519D93C5956F562F98EE8B37; Granted Authorities: ROLE_USER
+2014-11-22 15:23:42 INFO  UserController:63 - doLogin : Current user : kodomful
+2014-11-22 15:23:44 INFO  BlogDao:69 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-22 15:23:44 INFO  BlogDao:72 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-22 15:23:44 INFO  BlogDao:75 - getBlogListByUser : Fetched 6 blogs for user : kodomful
+2014-11-22 15:23:48 INFO  BlogDao:103 - getCommentsByBlogId : Getting Comment List for blog : 3
+2014-11-22 15:23:48 INFO  BlogDao:106 - getCommentsByBlogId : Query created : Query: { "blogid" : 3}, Fields: null, Sort: null
+2014-11-22 15:23:48 INFO  BlogDao:109 - getCommentsByBlogId : Fetched 0 comments for blog : 3
+2014-11-22 15:23:48 INFO  BlogDao:99 - BlogWithCommentsModel blogObject fetched : Blog id : 3 title : abcd Body : efgh
+2014-11-22 15:24:00 INFO  BlogDao:93 - addNewComment : Inserting new commeny for Blog Id : 3 of user : kodomful
+2014-11-22 15:24:00 INFO  BlogDao:95 - addNewComment : Sequence of new comment : 2
+2014-11-22 15:24:00 INFO  BlogDao:97 - addNewComment : New comment inserted
+2014-11-22 15:24:00 INFO  BlogService:68 - addNewComment : Added new comment for Blog Id : 3
+2014-11-22 15:24:00 INFO  BlogDao:103 - getCommentsByBlogId : Getting Comment List for blog : 3
+2014-11-22 15:24:00 INFO  BlogDao:106 - getCommentsByBlogId : Query created : Query: { "blogid" : 3}, Fields: null, Sort: null
+2014-11-22 15:24:00 INFO  BlogDao:109 - getCommentsByBlogId : Fetched 1 comments for blog : 3
+2014-11-22 15:28:33 INFO  UserController:47 - In showLoginPage function
+2014-11-22 15:28:34 INFO  UserController:47 - In showLoginPage function
+2014-11-22 15:28:34 INFO  UserController:47 - In showLoginPage function
+2014-11-22 15:28:34 INFO  UserController:47 - In showLoginPage function
+2014-11-22 15:28:34 INFO  UserController:47 - In showLoginPage function
+2014-11-22 15:28:34 INFO  UserController:47 - In showLoginPage function
+2014-11-22 15:28:50 INFO  UserController:57 - In doLogin function
+2014-11-22 15:28:50 INFO  UserController:62 - Principal is : org.springframework.security.authentication.UsernamePasswordAuthenticationToken@4ff8596f: Principal: org.springframework.security.core.userdetails.User@be55b5f: Username: kodomful; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@0: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: 14D361D2535F494076DE7AB23CC3479C; Granted Authorities: ROLE_USER
+2014-11-22 15:28:50 INFO  UserController:63 - doLogin : Current user : kodomful
+2014-11-22 15:28:54 INFO  BlogDao:69 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-22 15:28:54 INFO  BlogDao:72 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-22 15:28:54 INFO  BlogDao:75 - getBlogListByUser : Fetched 6 blogs for user : kodomful
+2014-11-22 15:28:56 INFO  BlogDao:103 - getCommentsByBlogId : Getting Comment List for blog : 3
+2014-11-22 15:28:56 INFO  BlogDao:106 - getCommentsByBlogId : Query created : Query: { "blogid" : 3}, Fields: null, Sort: null
+2014-11-22 15:28:56 INFO  BlogDao:109 - getCommentsByBlogId : Fetched 1 comments for blog : 3
+2014-11-22 15:28:56 INFO  BlogDao:99 - BlogWithCommentsModel blogObject fetched : Blog id : 3 title : abcd Body : efgh
+2014-11-22 15:29:16 INFO  BlogDao:93 - addNewComment : Inserting new commeny for Blog Id : 3 of user : kodomful
+2014-11-22 15:29:16 INFO  BlogDao:95 - addNewComment : Sequence of new comment : 3
+2014-11-22 15:29:16 INFO  BlogDao:97 - addNewComment : New comment inserted
+2014-11-22 15:29:16 INFO  BlogService:68 - addNewComment : Added new comment for Blog Id : 3
+2014-11-22 15:29:16 INFO  BlogDao:103 - getCommentsByBlogId : Getting Comment List for blog : 3
+2014-11-22 15:29:16 INFO  BlogDao:106 - getCommentsByBlogId : Query created : Query: { "blogid" : 3}, Fields: null, Sort: null
+2014-11-22 15:29:16 INFO  BlogDao:109 - getCommentsByBlogId : Fetched 2 comments for blog : 3
+2014-11-22 15:29:55 INFO  BlogDao:85 - getUserList : Fetched 5 users : [ "kodomful" , "paneerm" , "rinig" , "test10" , "test12"]
+2014-11-22 15:29:55 INFO  BlogService:46 - getAllUsers : Got 5 users : [ "kodomful" , "paneerm" , "rinig" , "test10" , "test12"]
+2014-11-22 15:29:57 INFO  BlogDao:69 - getBlogListByUser : Getting Blog List for user : paneerm
+2014-11-22 15:29:57 INFO  BlogDao:72 - getBlogListByUser : Query created : Query: { "user" : "paneerm"}, Fields: null, Sort: null
+2014-11-22 15:29:57 INFO  BlogDao:75 - getBlogListByUser : Fetched 1 blogs for user : paneerm
+2014-11-22 15:29:58 INFO  BlogDao:103 - getCommentsByBlogId : Getting Comment List for blog : 8
+2014-11-22 15:29:58 INFO  BlogDao:106 - getCommentsByBlogId : Query created : Query: { "blogid" : 8}, Fields: null, Sort: null
+2014-11-22 15:29:58 INFO  BlogDao:109 - getCommentsByBlogId : Fetched 0 comments for blog : 8
+2014-11-22 15:29:58 INFO  BlogDao:99 - BlogWithCommentsModel blogObject fetched : Blog id : 8 title : My blog panner Body : makhani
+2014-11-22 15:30:10 INFO  BlogDao:93 - addNewComment : Inserting new commeny for Blog Id : 8 of user : kodomful
+2014-11-22 15:30:10 INFO  BlogDao:95 - addNewComment : Sequence of new comment : 4
+2014-11-22 15:30:10 INFO  BlogDao:97 - addNewComment : New comment inserted
+2014-11-22 15:30:10 INFO  BlogService:68 - addNewComment : Added new comment for Blog Id : 8
+2014-11-22 15:30:10 INFO  BlogDao:103 - getCommentsByBlogId : Getting Comment List for blog : 8
+2014-11-22 15:30:10 INFO  BlogDao:106 - getCommentsByBlogId : Query created : Query: { "blogid" : 8}, Fields: null, Sort: null
+2014-11-22 15:30:10 INFO  BlogDao:109 - getCommentsByBlogId : Fetched 1 comments for blog : 8
+2014-11-22 15:31:23 INFO  BlogDao:93 - addNewComment : Inserting new commeny for Blog Id : 8 of user : kodomful
+2014-11-22 15:31:23 INFO  BlogDao:95 - addNewComment : Sequence of new comment : 5
+2014-11-22 15:31:23 INFO  BlogDao:97 - addNewComment : New comment inserted
+2014-11-22 15:31:23 INFO  BlogService:68 - addNewComment : Added new comment for Blog Id : 8
+2014-11-22 15:31:23 INFO  BlogDao:103 - getCommentsByBlogId : Getting Comment List for blog : 8
+2014-11-22 15:31:23 INFO  BlogDao:106 - getCommentsByBlogId : Query created : Query: { "blogid" : 8}, Fields: null, Sort: null
+2014-11-22 15:31:23 INFO  BlogDao:109 - getCommentsByBlogId : Fetched 2 comments for blog : 8
+2014-11-22 15:58:06 INFO  UserController:47 - In showLoginPage function
+2014-11-22 15:58:07 INFO  UserController:47 - In showLoginPage function
+2014-11-22 15:58:07 INFO  UserController:47 - In showLoginPage function
+2014-11-22 15:58:07 INFO  UserController:47 - In showLoginPage function
+2014-11-22 15:58:07 INFO  UserController:47 - In showLoginPage function
+2014-11-22 15:58:07 INFO  UserController:47 - In showLoginPage function
+2014-11-22 15:58:16 INFO  UserController:47 - In showLoginPage function
+2014-11-22 15:58:20 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:01:04 INFO  UserController:57 - In doLogin function
+2014-11-22 16:01:04 INFO  UserController:62 - Principal is : org.springframework.security.authentication.UsernamePasswordAuthenticationToken@b00715f3: Principal: org.springframework.security.core.userdetails.User@be55b5f: Username: kodomful; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@ffff4c9c: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: 7F6FD1382275E2D4069EE2C982D62F1C; Granted Authorities: ROLE_USER
+2014-11-22 16:01:04 INFO  UserController:63 - doLogin : Current user : kodomful
+2014-11-22 16:02:29 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:02:33 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:02:34 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:02:37 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:12:03 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:12:05 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:12:05 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:12:05 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:12:05 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:12:05 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:12:11 INFO  UserController:57 - In doLogin function
+2014-11-22 16:12:11 INFO  UserController:62 - Principal is : org.springframework.security.authentication.UsernamePasswordAuthenticationToken@b005bcbb: Principal: org.springframework.security.core.userdetails.User@be55b5f: Username: kodomful; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffde5d4: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: 6BBD8BEE2CF0EFAEE60C88CD1F5923B7; Granted Authorities: ROLE_USER
+2014-11-22 16:12:11 INFO  UserController:63 - doLogin : Current user : kodomful
+2014-11-22 16:18:24 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:18:25 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:18:25 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:18:25 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:18:25 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:18:25 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:18:29 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:18:35 INFO  UserController:57 - In doLogin function
+2014-11-22 16:18:35 INFO  UserController:62 - Principal is : org.springframework.security.authentication.UsernamePasswordAuthenticationToken@4ffa94ff: Principal: org.springframework.security.core.userdetails.User@be55b5f: Username: kodomful; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@2cd90: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: 4360CB405629DAC4CF108A2AD3B98648; Granted Authorities: ROLE_USER
+2014-11-22 16:18:35 INFO  UserController:63 - doLogin : Current user : kodomful
+2014-11-22 16:21:55 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:21:56 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:21:56 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:21:56 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:21:56 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:21:56 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:22:01 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:23:52 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:23:53 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:23:53 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:23:53 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:23:53 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:23:53 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:26:22 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:26:22 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:26:23 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:26:23 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:26:32 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:26:32 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:26:34 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:26:36 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:26:37 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:26:38 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:26:39 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:26:39 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:26:39 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:26:39 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:26:40 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:26:40 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:26:40 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:26:41 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:26:42 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:28:14 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:28:17 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:28:17 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:28:18 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:28:19 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:28:19 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:28:19 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:28:20 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:28:20 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:28:29 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:29:07 INFO  UserController:57 - In doLogin function
+2014-11-22 16:29:07 INFO  UserController:62 - Principal is : org.springframework.security.authentication.UsernamePasswordAuthenticationToken@4ff93fa7: Principal: org.springframework.security.core.userdetails.User@be55b5f: Username: kodomful; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@166c8: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: E3499AA85E406309B9C0AA3C0BEB1C68; Granted Authorities: ROLE_USER
+2014-11-22 16:29:07 INFO  UserController:63 - doLogin : Current user : kodomful
+2014-11-22 16:31:07 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:31:08 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:31:08 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:31:08 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:31:08 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:31:08 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:31:13 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:32:10 INFO  UserController:57 - In doLogin function
+2014-11-22 16:32:10 INFO  UserController:62 - Principal is : org.springframework.security.authentication.UsernamePasswordAuthenticationToken@b00715f3: Principal: org.springframework.security.core.userdetails.User@be55b5f: Username: kodomful; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@ffff4c9c: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: A987EF7229ED9B8F02DFFE70CFC554C6; Granted Authorities: ROLE_USER
+2014-11-22 16:32:10 INFO  UserController:63 - doLogin : Current user : kodomful
+2014-11-22 16:32:14 INFO  BlogDao:69 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-22 16:32:14 INFO  BlogDao:72 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-22 16:32:14 INFO  BlogDao:75 - getBlogListByUser : Fetched 6 blogs for user : kodomful
+2014-11-22 16:32:15 INFO  BlogDao:103 - getCommentsByBlogId : Getting Comment List for blog : 3
+2014-11-22 16:32:15 INFO  BlogDao:106 - getCommentsByBlogId : Query created : Query: { "blogid" : 3}, Fields: null, Sort: null
+2014-11-22 16:32:15 INFO  BlogDao:109 - getCommentsByBlogId : Fetched 2 comments for blog : 3
+2014-11-22 16:32:15 INFO  BlogDao:99 - BlogWithCommentsModel blogObject fetched : Blog id : 3 title : abcd Body : efgh
+2014-11-22 16:40:59 INFO  BlogDao:103 - getCommentsByBlogId : Getting Comment List for blog : 3
+2014-11-22 16:40:59 INFO  BlogDao:106 - getCommentsByBlogId : Query created : Query: { "blogid" : 3}, Fields: null, Sort: null
+2014-11-22 16:40:59 INFO  BlogDao:109 - getCommentsByBlogId : Fetched 2 comments for blog : 3
+2014-11-22 16:40:59 INFO  BlogDao:99 - BlogWithCommentsModel blogObject fetched : Blog id : 3 title : abcd Body : efgh
+2014-11-22 16:41:41 INFO  BlogDao:93 - addNewComment : Inserting new commeny for Blog Id : 3 of user : kodomful
+2014-11-22 16:41:41 INFO  BlogDao:95 - addNewComment : Sequence of new comment : 6
+2014-11-22 16:41:41 INFO  BlogDao:97 - addNewComment : New comment inserted
+2014-11-22 16:41:41 INFO  BlogService:68 - addNewComment : Added new comment for Blog Id : 3
+2014-11-22 16:41:41 INFO  BlogDao:103 - getCommentsByBlogId : Getting Comment List for blog : 3
+2014-11-22 16:41:41 INFO  BlogDao:106 - getCommentsByBlogId : Query created : Query: { "blogid" : 3}, Fields: null, Sort: null
+2014-11-22 16:41:41 INFO  BlogDao:109 - getCommentsByBlogId : Fetched 3 comments for blog : 3
+2014-11-22 16:54:18 INFO  BlogDao:93 - addNewComment : Inserting new commeny for Blog Id : 3 of user : kodomful
+2014-11-22 16:54:18 INFO  BlogDao:95 - addNewComment : Sequence of new comment : 7
+2014-11-22 16:54:18 INFO  BlogDao:97 - addNewComment : New comment inserted
+2014-11-22 16:54:18 INFO  BlogService:68 - addNewComment : Added new comment for Blog Id : 3
+2014-11-22 16:54:18 INFO  BlogDao:103 - getCommentsByBlogId : Getting Comment List for blog : 3
+2014-11-22 16:54:18 INFO  BlogDao:106 - getCommentsByBlogId : Query created : Query: { "blogid" : 3}, Fields: null, Sort: null
+2014-11-22 16:54:18 INFO  BlogDao:109 - getCommentsByBlogId : Fetched 4 comments for blog : 3
+2014-11-22 16:54:22 INFO  UserController:47 - In showLoginPage function
+2014-11-22 16:54:26 INFO  UserController:57 - In doLogin function
+2014-11-22 16:54:26 INFO  UserController:62 - Principal is : org.springframework.security.authentication.UsernamePasswordAuthenticationToken@b00715f3: Principal: org.springframework.security.core.userdetails.User@be55b5f: Username: kodomful; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@ffff4c9c: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: FE73AB4356046FE41E05111F8245816A; Granted Authorities: ROLE_USER
+2014-11-22 16:54:26 INFO  UserController:63 - doLogin : Current user : kodomful
+2014-11-22 17:06:39 INFO  UserController:57 - In doLogin function
+2014-11-22 17:06:39 INFO  UserController:62 - Principal is : org.springframework.security.authentication.UsernamePasswordAuthenticationToken@b00715f3: Principal: org.springframework.security.core.userdetails.User@be55b5f: Username: kodomful; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@ffff4c9c: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: FE73AB4356046FE41E05111F8245816A; Granted Authorities: ROLE_USER
+2014-11-22 17:06:39 INFO  UserController:63 - doLogin : Current user : kodomful
+2014-11-22 17:06:46 INFO  UserController:47 - In showLoginPage function
+2014-11-22 17:06:46 INFO  UserController:47 - In showLoginPage function
+2014-11-22 17:06:54 INFO  UserController:57 - In doLogin function
+2014-11-22 17:06:54 INFO  UserController:62 - Principal is : org.springframework.security.authentication.UsernamePasswordAuthenticationToken@4ff93fa7: Principal: org.springframework.security.core.userdetails.User@be55b5f: Username: kodomful; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@166c8: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: 8C16CF9ED37D8C20B884015B2279FCA0; Granted Authorities: ROLE_USER
+2014-11-22 17:06:54 INFO  UserController:63 - doLogin : Current user : kodomful
+2014-11-22 17:10:01 INFO  BlogDao:85 - getUserList : Fetched 5 users : [ "kodomful" , "paneerm" , "rinig" , "test10" , "test12"]
+2014-11-22 17:10:01 INFO  BlogService:46 - getAllUsers : Got 5 users : [ "kodomful" , "paneerm" , "rinig" , "test10" , "test12"]
+2014-11-22 17:10:03 INFO  BlogDao:69 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-22 17:10:03 INFO  BlogDao:72 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-22 17:10:03 INFO  BlogDao:75 - getBlogListByUser : Fetched 6 blogs for user : kodomful
+2014-11-22 17:10:06 INFO  BlogDao:103 - getCommentsByBlogId : Getting Comment List for blog : 3
+2014-11-22 17:10:06 INFO  BlogDao:106 - getCommentsByBlogId : Query created : Query: { "blogid" : 3}, Fields: null, Sort: null
+2014-11-22 17:10:06 INFO  BlogDao:109 - getCommentsByBlogId : Fetched 4 comments for blog : 3
+2014-11-22 17:10:06 INFO  BlogDao:99 - BlogWithCommentsModel blogObject fetched : Blog id : 3 title : abcd Body : efgh
+2014-11-22 17:12:37 INFO  UserController:47 - In showLoginPage function
+2014-11-22 17:12:38 INFO  UserController:47 - In showLoginPage function
+2014-11-22 17:12:38 INFO  UserController:47 - In showLoginPage function
+2014-11-22 17:12:38 INFO  UserController:47 - In showLoginPage function
+2014-11-22 17:12:38 INFO  UserController:47 - In showLoginPage function
+2014-11-22 17:12:38 INFO  UserController:47 - In showLoginPage function
+2014-11-22 17:12:48 INFO  UserController:57 - In doLogin function
+2014-11-22 17:12:48 INFO  UserController:62 - Principal is : org.springframework.security.authentication.UsernamePasswordAuthenticationToken@4ffa4343: Principal: org.springframework.security.core.userdetails.User@be55b5f: Username: kodomful; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@21a2c: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: B98E0210B4FD8749A665AB43A7E72183; Granted Authorities: ROLE_USER
+2014-11-22 17:12:48 INFO  UserController:63 - doLogin : Current user : kodomful
+2014-11-22 17:13:11 INFO  BlogDao:69 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-22 17:13:11 INFO  BlogDao:72 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-22 17:13:11 INFO  BlogDao:75 - getBlogListByUser : Fetched 6 blogs for user : kodomful
+2014-11-22 17:13:12 INFO  BlogDao:103 - getCommentsByBlogId : Getting Comment List for blog : 3
+2014-11-22 17:13:12 INFO  BlogDao:106 - getCommentsByBlogId : Query created : Query: { "blogid" : 3}, Fields: null, Sort: null
+2014-11-22 17:13:12 INFO  BlogDao:109 - getCommentsByBlogId : Fetched 4 comments for blog : 3
+2014-11-22 17:13:12 INFO  BlogDao:99 - BlogWithCommentsModel blogObject fetched : Blog id : 3 title : abcd Body : efgh
+2014-11-22 17:13:45 INFO  BlogDao:69 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-22 17:13:45 INFO  BlogDao:72 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-22 17:13:45 INFO  BlogDao:75 - getBlogListByUser : Fetched 6 blogs for user : kodomful
+2014-11-22 17:13:53 INFO  BlogDao:85 - getUserList : Fetched 5 users : [ "kodomful" , "paneerm" , "rinig" , "test10" , "test12"]
+2014-11-22 17:13:53 INFO  BlogService:46 - getAllUsers : Got 5 users : [ "kodomful" , "paneerm" , "rinig" , "test10" , "test12"]
+2014-11-22 17:13:54 INFO  BlogDao:69 - getBlogListByUser : Getting Blog List for user : kodomful
+2014-11-22 17:13:54 INFO  BlogDao:72 - getBlogListByUser : Query created : Query: { "user" : "kodomful"}, Fields: null, Sort: null
+2014-11-22 17:13:54 INFO  BlogDao:75 - getBlogListByUser : Fetched 6 blogs for user : kodomful
+2014-11-22 17:13:56 INFO  BlogDao:103 - getCommentsByBlogId : Getting Comment List for blog : 3
+2014-11-22 17:13:56 INFO  BlogDao:106 - getCommentsByBlogId : Query created : Query: { "blogid" : 3}, Fields: null, Sort: null
+2014-11-22 17:13:56 INFO  BlogDao:109 - getCommentsByBlogId : Fetched 4 comments for blog : 3
+2014-11-22 17:13:56 INFO  BlogDao:99 - BlogWithCommentsModel blogObject fetched : Blog id : 3 title : abcd Body : efgh

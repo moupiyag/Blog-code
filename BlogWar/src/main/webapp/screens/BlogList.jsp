@@ -22,7 +22,7 @@
 			<c:forEach var="blog" items="${blogList}" varStatus="counter">
 				<div id="blogtitle">
 <%-- 				<c:out value="${counter.count}" />.  --%>
-				<c:out value="${blog.blogTitle}" />
+				<a href="<c:url value="/showblog.do?blog=${blog.id}" />"><c:out value="${blog.blogTitle}" /></a>
 				</div>
 			<div id="blogdate">
 			<c:out value="Updated at ${blog.blogDate}" />

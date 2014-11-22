@@ -16,6 +16,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.mongodb.DBCollection;
 import com.myCode.entity.Blog;
+import com.myCode.entity.Comment;
 import com.myCode.entity.Counter;
 
 public class BlogDao{
@@ -85,5 +86,42 @@ public class BlogDao{
 		
 		return blogUserList;
 	}
+	
+	@Transactional(rollbackFor= Exception.class)
+	public void addNewComment(Comment comment)
+	{
+		logger.info("addNewComment : Inserting new commeny for Blog Id : "+comment.getBlogId()+" of user : "+comment.getUserName());
+		comment.setId(getNextSequenceId("commentSequence"));
+		logger.info("addNewComment : Sequence of new comment : "+comment.getId());
+		mongoOps.insert(comment);
+		logger.info("addNewComment : New comment inserted");
+	}
+	
+	@Transactional(rollbackFor= Exception.class)
+	public List<Comment> getCommentsByBlogId(long blogId)
+	{
+		logger.info("getCommentsByBlogId : Getting Comment List for blog : "+blogId);
+		Query query = new Query();
+		query.addCriteria(Criteria.where("blogid").is(blogId));
+		logger.info("getCommentsByBlogId : Query created : "+query);
+		
+		List<Comment> commentList = mongoOps.find(query,Comment.class);
+		logger.info("getCommentsByBlogId : Fetched "+commentList.size()+ " comments for blog : "+blogId);
+		
+		return commentList;
+	}
+	
+	@Transactional(rollbackFor= Exception.class)
+	public Blog getBlogById(long blogId)
+	{
+		Query query = new Query();
+		query.addCriteria(Criteria.where("_id").is(blogId));
+		
+		Blog currBlog = mongoOps.findOne(query, Blog.class);
+		
+		return currBlog;
+	}
+
+	
 
 }
