@@ -18,8 +18,8 @@ A fully functional blogging interface. It has the following functionalities:
 === Ongoing work ===
 
 
-1. Comment module.
-2. Front-end polishing.
+1. Front-end polishing.
+2. Anonymous commenting.
 
 === Technology used ===
 
